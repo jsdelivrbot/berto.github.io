@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Berto</title>
+    <link>https://berto.github.io/projects/index.xml</link>
+    <description>Recent content in Projects on Berto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 31 Jan 2017 15:53:28 -0700</lastBuildDate>
+    <atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Projects</title>
+      <link>https://berto.github.io/projects/projects/</link>
+      <pubDate>Tue, 31 Jan 2017 15:53:28 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/projects/</guid>
+      <description>&lt;p&gt;True developers never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my &lt;a href=&#34;https://github.com/berto&#34;&gt;Github profile&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Haskell CLI Timer</title>
+      <link>https://berto.github.io/projects/haskell-cli-timer/</link>
+      <pubDate>Mon, 30 Jan 2017 20:07:51 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/haskell-cli-timer/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/timer.gif&#34; alt=&#34;timer&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Simple CLI timer. Test-driven and written in Haskell.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/terminal-countdown-timer&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go Terminal Flashcard App</title>
+      <link>https://berto.github.io/projects/go-cli-flashcards/</link>
+      <pubDate>Tue, 29 Nov 2016 14:43:35 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/go-cli-flashcards/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/flashcards.png&#34; alt=&#34;flashcards&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/flashcards&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CLI Image to Unicode Display Tool</title>
+      <link>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</link>
+      <pubDate>Sat, 12 Nov 2016 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/udraw.png&#34; alt=&#34;udraw&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I call it udraw. Basically it takes a unicode file and displays it in the terminal.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/udraw&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Time Lapse Camera</title>
+      <link>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</link>
+      <pubDate>Wed, 28 Sep 2016 15:07:05 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/time-lapse.gif&#34; alt=&#34;time-lapse&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://s3-time-lapse.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/time-lapse&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>React Puzzle Game</title>
+      <link>https://berto.github.io/projects/react-puzzle-game/</link>
+      <pubDate>Tue, 02 Aug 2016 15:14:38 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/react-puzzle-game/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/donuts.png&#34; alt=&#34;donuts&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Built with React/Redux. The point of the game is to leave your opponent with the last donut. &lt;a href=&#34;https://dont-take-the-last-donut.herokuapp.com/&#34;&gt;Give it a shot!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/donuts&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Game Theory with Waffles</title>
+      <link>https://berto.github.io/projects/game-theory-with-waffles/</link>
+      <pubDate>Fri, 08 Apr 2016 15:21:27 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/game-theory-with-waffles/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/waffles.png&#34; alt=&#34;waffles&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I find &lt;a href=&#34;https://en.wikipedia.org/wiki/Game_theory&#34;&gt;Game Theory&lt;/a&gt; fascinating. I also like waffles.
+I decided to create a web game to challenge two people into a zero-sum game situation.&lt;/p&gt;
+
+&lt;p&gt;Built with websockets and Go.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://waffles-game-theory.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/waffles-game-theory&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Java Gradle Generator</title>
+      <link>https://berto.github.io/projects/java-gradle-generator/</link>
+      <pubDate>Sun, 21 Feb 2016 15:56:13 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/java-gradle-generator/</guid>
+      <description>&lt;p&gt;Basic generator for a Gradle Java application using Yeoman.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/yo-java-gradle&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Go Sudoku Solver</title>
+      <link>https://berto.github.io/projects/go-sudoku-solver/</link>
+      <pubDate>Sun, 22 Nov 2015 15:27:29 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/go-sudoku-solver/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/sugoku.png&#34; alt=&#34;sugoku&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sudoku web app: solves, generates, grades, and validates sudoku puzzles.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sugoku.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/sugoku&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Previous Work</title>
+      <link>https://berto.github.io/projects/previous-work/</link>
+      <pubDate>Wed, 07 Oct 2015 16:00:11 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/previous-work/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://war.bertoort.com/&#34;&gt;War&lt;/a&gt;, the card game simulator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://squirrel.bertoort.com/&#34;&gt;Squirrel&lt;/a&gt;, a 2D JavaScript game&lt;/li&gt;
+&lt;li&gt;Web &lt;a href=&#34;http://terminal.bertoort.com&#34;&gt;terminal&lt;/a&gt; simulator&lt;/li&gt;
+&lt;li&gt;Old &lt;a href=&#34;http://bertoort.com&#34;&gt;personal site&lt;/a&gt; build with Angular&lt;/li&gt;
+&lt;li&gt;And &lt;a href=&#34;https://github.com/berto&#34;&gt;more&amp;hellip;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

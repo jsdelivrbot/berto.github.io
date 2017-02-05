@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://berto.github.io/blog/introduction-to-haskell/</loc>
+    <lastmod>2017-02-02T23:55:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/home/</loc>
+    <lastmod>2017-01-31T15:58:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/projects/</loc>
+    <lastmod>2017-01-31T15:53:28-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/haskell-cli-timer/</loc>
+    <lastmod>2017-01-30T20:07:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/about/</loc>
+    <lastmod>2017-01-30T20:07:34-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/making-this-site-with-hugo/</loc>
+    <lastmod>2016-12-03T23:46:44-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/go-cli-flashcards/</loc>
+    <lastmod>2016-11-29T14:43:35-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</loc>
+    <lastmod>2016-11-12T14:55:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</loc>
+    <lastmod>2016-10-15T23:08:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</loc>
+    <lastmod>2016-09-28T15:07:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/using-docker-for-web-development/</loc>
+    <lastmod>2016-09-18T22:48:16-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/creating-a-dotfiles-directory/</loc>
+    <lastmod>2016-08-27T22:40:54-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/a-friendly-guide-to-setting-up-vim/</loc>
+    <lastmod>2016-08-16T22:25:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/react-puzzle-game/</loc>
+    <lastmod>2016-08-02T15:14:38-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</loc>
+    <lastmod>2016-07-20T14:01:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/aws-ec2-vps-setup/</loc>
+    <lastmod>2016-06-18T20:08:23-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/game-theory-with-waffles/</loc>
+    <lastmod>2016-04-08T15:21:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/java-gradle-generator/</loc>
+    <lastmod>2016-02-21T15:56:13-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/go-sudoku-solver/</loc>
+    <lastmod>2015-11-22T15:27:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/previous-work/</loc>
+    <lastmod>2015-10-07T16:00:11-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/</loc>
+    <lastmod>2017-02-02T23:55:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/</loc>
+    <lastmod>2017-02-02T23:55:51-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/</loc>
+    <lastmod>2017-01-31T15:53:28-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Example blog">
+
+<base href="https://berto.github.io">
+<title>
+
+
+     Berto - Introduction to Haskell 
+
+</title>
+<link rel="canonical" href="https://berto.github.io/blog/introduction-to-haskell/">
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
+<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://berto.github.io/img/zerg.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+
+<section class="header"> 
+
+    <div class="container">
+        <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
+        <div class="content">
+            <a href="https://berto.github.io"><div class="name"><h1>Berto</h1></div></a>
+            <nav>
+                <ul>
+                    
+                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                    
+                    
+                        
+                    
+                        
+                            
+                        
+                    
+                        
+                            
+                            <a href="projects"><li>projects</li></a>
+                            
+                        
+                    
+                    
+                        
+                    
+                        
+                            <a href="https://berto.github.io/about/"><li>about</li></a>
+                        
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="https://github.com/berto" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="https://twitter.com/@bertoort" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://www.linkedin.com/in/bertoort" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+            <a href="mailto:berto.ort@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+
+        
+            <a href="https://berto.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Introduction to Haskell
+
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Thu Feb 2 2017 23:55:51 MST">Feb 2, 2017</div>
+                    <div class="reading-time"><div class="middot"></div>6 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<ul>
+<li><a href="https://berto.github.io/blog/introduction-to-haskell/#getting-started">Getting Started</a></li>
+<li><a href="https://berto.github.io/blog/introduction-to-haskell/#development">Development</a></li>
+<li><a href="https://berto.github.io/blog/introduction-to-haskell/#syntax">Syntax</a></li>
+<li><a href="https://berto.github.io/blog/introduction-to-haskell/#conclusion">Conclusion</a></li>
+</ul>
+
+<p>I came to discover <a href="https://www.haskell.org/">Haskell</a> is a wonderful programming language. The fact that it is statically typed and purely functional grabbed my attention (it is also described as a declarative language, regardless of how impossible it is to read).</p>
+
+<p>This blog is an open record of how I came to create a simple <a href="https://github.com/berto/terminal-countdown-timer">CLI timer</a> with Haskell and what I learned from it.</p>
+
+<p><img src="https://berto.github.io/img/projects/timer.gif" alt="timer" /></p>
+
+<h2 id="getting-started">GETTING STARTED</h2>
+
+<p>Ridiculously painless. First, read as much as you can of <a href="http://learnyouahaskell.com/">Learn You A Haskell</a>. It is the best programming book I&rsquo;ve ever read.</p>
+
+<p>When you&rsquo;re ready to code, go <a href="https://www.haskell.org/platform/">here</a> and download the latest version of the Haskell Platform.</p>
+
+<p>On top of installing Haskell, it also gives you <a href="https://www.haskell.org/ghc/">GHC</a> to compile the code. It comes with an interactive environment for the terminal. Type <code>ghci</code> to play around.</p>
+
+<p>Lastly, the platform comes with <a href="https://www.haskell.org/cabal/">Cabal</a>. Cabal is <a href="https://ivanmiljenovic.wordpress.com/2010/03/15/repeat-after-me-cabal-is-not-a-package-manager/">not a package manager</a>, even though it contains information about the packages. It is part of the ecosystem, along with <a href="http://hackage.haskell.org/packages/hackage.html">HaskellDB</a> and cabal-install to manage your packages.</p>
+
+<p>All and all, I used Cabal to get the libraries and packages that i needed (like a package manager). I also used <a href="https://docs.haskellstack.org/en/stable/README/">Stack</a>. It is a wonderful program for developing Haskell apps. It scaffolds a beautiful app with tests. Install by running:</p>
+
+<pre><code>curl -sSL https://get.haskellstack.org/ | sh
+</code></pre>
+
+<p>Then use it with the following commands:</p>
+
+<pre><code>stack new my-project
+cd my-project
+stack setup
+stack build
+stack exec my-project-exe
+</code></pre>
+
+<h2 id="development">DEVELOPMENT</h2>
+
+<p>Type <code>stack new my-project</code> to get started. When you generate a new project, Stack gives you the following:</p>
+
+<pre><code>.
+├── LICENSE
+├── Setup.hs
+├── app
+│   └── Main.hs
+├── my-project.cabal
+├── src
+│   └── Lib.hs
+├── stack.yaml
+└── test
+    └── Spec.hs
+</code></pre>
+
+<p>Like <code>Java</code> and other compiled languages, the <code>main</code> package contains the main function of the application. You will notice a <code>Lib</code> package being imported in <code>Main.hs</code>. This is an example of importing custom packages from the <code>src</code> directory.
+You can create a package by creating a file in the <code>src</code> directory and adding it to the <code>.cabal</code> file&rsquo;s <code>exposed-modules</code>.</p>
+
+<p>I found myself editing the <code>*.cabal</code> file quite often. This is where your project information lives and you specify the package imports.</p>
+
+<p>For importing third party packages, install them using <code>cabal</code> and then add them to the <code>build-depends</code>. For example, I used <code>hspec</code> for tests, so I ran <code>cabal install hspec</code> and then added <code>hspec   == 2.*</code> to the dependencies. Here you can find an example of my <a href="https://github.com/berto/terminal-countdown-timer/blob/master/terminal-countdown-timer.cabal">.cabal file</a> and the <a href="https://github.com/berto/terminal-countdown-timer/blob/master/test/Spec.hs">tests</a>.</p>
+
+<p>To create your own packages, start by defining the module name, the functions to by exported surrounded by parenthesis, and the keyword <code>where</code>. This is the example from the <code>Lib</code> package:</p>
+
+<pre><code>module Lib
+    ( someFunc
+    ) where
+
+someFunc :: IO ()
+someFunc = putStrLn &quot;someFunc&quot;
+</code></pre>
+
+<p>Then, when the package is imported, all the exported functions will be available globally.</p>
+
+<p>I only had a problem with certain packages being hidden by Cabal that Stack wasn&rsquo;t able to access. If this ever happens, I worked around it by including a flag in the build command:</p>
+
+<pre><code>stack build --ghc-options=&quot;-package [container-name]&quot;
+</code></pre>
+
+<h2 id="syntax">SYNTAX</h2>
+
+<p>Again, I highly suggest reading <a href="http://learnyouahaskell.com/">Learn You A Haskell</a> to explore the language. I do want to highlight a few areas that stood out to me:</p>
+
+<h4 id="optionally-statically-typed">Optionally Statically Typed</h4>
+
+<pre><code>lpad :: Int -&gt; [Int] -&gt; [Int]
+lpad m xs = replicate (m - length ys) 0 ++ ys
+    where ys = take m xs
+</code></pre>
+
+<p>In the example above, the first line defining the function is <code>lpad :: Int -&gt; [Int] -&gt; [Int]</code>. This is the syntax for declaring the input and output of the function, first the name, then the <code>::</code> and then the parameters separated by <code>-&gt;</code>&rsquo;s.
+The last type is the output. In this example, the function <code>lpad</code> takes an integer and a list of integers and returns another list of integers.</p>
+
+<p>This is completely optional though. It is considered good practice to give functions type declarations but it is not required. The compiler will do just fine without it. Read <a href="http://learnyouahaskell.com/types-and-typeclasses">this chapter</a> for more information.</p>
+
+<h4 id="extensive-list-of-operators">Extensive List of Operators</h4>
+
+<p>Haskell, and other functional languages, are mathematical and full of operators. <a href="http://www.imada.sdu.dk/~rolf/Edu/DM22/F06/haskell-operatorer.pdf">Here</a> is a list of them.</p>
+
+<p>I find them unwelcoming when learning the language. They simplify the code to an extend that it looks beautiful but quite difficult to read. As a beginner, I found myself constantly looking up their definition.</p>
+
+<p>My favorite ended up being the <code>$</code> that is an abstraction of <code>()</code>&rsquo;s in the way of grouping the order of execution. <code>sum (1 * 8)</code> is the same as <code>sum $ 1 * 8</code></p>
+
+<h4 id="the-importance-of-pattern-matching">The Importance of Pattern Matching</h4>
+
+<p>In the <a href="http://learnyouahaskell.com/syntax-in-functions">Syntax in Functions</a> chapter, you can see Haskell&rsquo;s ability to do pattern matching. There are so many ways to do <code>if</code> statements.</p>
+
+<p>You can define a function to behave differently depending on the input with standard <code>if</code> statements, <a href="https://wiki.haskell.org/Pattern_guard">guards</a>, or more interestingly, the way you define the function. Here is an example from the book:</p>
+
+<pre><code>sayMe :: (Integral a) =&gt; a -&gt; String  
+sayMe 1 = &quot;One!&quot;  
+sayMe 2 = &quot;Two!&quot;  
+sayMe 3 = &quot;Three!&quot;  
+sayMe 4 = &quot;Four!&quot;  
+sayMe 5 = &quot;Five!&quot;  
+sayMe x = &quot;Not between 1 and 5&quot; 
+</code></pre>
+
+<p>If the input is 1, the function will return &ldquo;One!&rdquo;, if it&rsquo;s 2, &ldquo;Two!, and so on. In the last case, it will handle any other input as a variable <code>x</code>.</p>
+
+<h4 id="flexible-inputs-and-outputs">Flexible Inputs and Outputs</h4>
+
+<p>In the code example above, you may have noticed the type <code>a</code> in the function declaration. This is Haskell&rsquo;s <a href="https://wiki.haskell.org/Generics">Generics</a>. They are great for allowing flexible inputs and outputs in a function. That means that the function <code>sayMe</code> could take any type of input.</p>
+
+<p>Haskell also has a <a href="https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Maybe.html">Maybe</a> and <a href="https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Either.html">Either</a> type. This I found really interesting, where you define the possibility of the outcome. In the case of <code>Maybe</code>, you get <code>Just</code> the type you defined or <code>Nothing</code> back.</p>
+
+<pre><code>f::Int -&gt; Maybe Int
+f 0 = Nothing
+f x = Just x
+</code></pre>
+
+<p>With <code>Either</code>, you <code>Either</code> get the <code>Right</code> or the <code>Left</code> type.</p>
+
+<pre><code>f1 :: Int -&gt; Either String Int
+f1 arg = if arg == 42
+             then Left &quot;can't work with 42&quot;
+             else Right (arg + 3)
+</code></pre>
+
+<p><code>Maybe</code> and <code>Either</code> output flexibility is great for error handling.</p>
+
+<h2 id="conclusion">CONCLUSION</h2>
+
+<p>Haskell is a blast. I must admit, I made rookie mistakes of trying to define an accumulator variable at global scope and trying to change the nth number of a list. In functional programming, there is no state or mutations.</p>
+
+<p>The way of thinking is different. More recursion, math, modularity, and simplicity. I like the process of composing my code, brick by brick. Refactoring and modification was a peaceful process.</p>
+
+<p>I encourage all to give it a shot.</p>
+
+<p><img src="https://berto.github.io/img/gopher7.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/introduction-to-haskell\/';
+    var disqus_title = 'Introduction to Haskell';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/introduction-to-haskell\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+
+  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

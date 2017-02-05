@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Example blog">
+
+<base href="https://berto.github.io">
+<title>
+
+
+     Berto - Using Docker for Web Development 
+
+</title>
+<link rel="canonical" href="https://berto.github.io/blog/using-docker-for-web-development/">
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
+<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://berto.github.io/img/zerg.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+
+<section class="header"> 
+
+    <div class="container">
+        <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
+        <div class="content">
+            <a href="https://berto.github.io"><div class="name"><h1>Berto</h1></div></a>
+            <nav>
+                <ul>
+                    
+                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                    
+                    
+                        
+                    
+                        
+                            
+                        
+                    
+                        
+                            
+                            <a href="projects"><li>projects</li></a>
+                            
+                        
+                    
+                    
+                        
+                    
+                        
+                            <a href="https://berto.github.io/about/"><li>about</li></a>
+                        
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="https://github.com/berto" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="https://twitter.com/@bertoort" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://www.linkedin.com/in/bertoort" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+            <a href="mailto:berto.ort@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+
+        
+            <a href="https://berto.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Using Docker for Web Development
+
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sun Sep 18 2016 22:48:16 -0700">Sep 18, 2016</div>
+                    <div class="reading-time"><div class="middot"></div>6 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<ul>
+<li><a href="blog/using-docker-for-web-development/#all-aboard-the-hype-train-containership">All Aboard</a></li>
+<li><a href="blog/using-docker-for-web-development/#building-an-app">Building an App</a></li>
+<li><a href="blog/using-docker-for-web-development/#dockerfile-and-docker-compose">Dockerfil and Docker Compose</a></li>
+<li><a href="blog/using-docker-for-web-development/#next-steps">Next Steps</a></li>
+</ul>
+
+<h2 id="all-aboard-the-hype-train-containership">ALL ABOARD THE HYPE <em>TRAIN</em> CONTAINERSHIP</h2>
+
+<p><a href="https://www.docker.com/what-docker">Docker</a> is popular for its lightweight ease of deployment. Make a container with only the images you need and boom! the perfect running environment. There are many guides that will go into detail on how Docker works and how to use it. However, I haven’t seen many guides that break down the use of it for development… and Docker is a great tool for development. In this blog, I aim to demonstrate such by creating an application while highlighting docker’s common tools and commands. By the end, you should be able to:</p>
+
+<ul>
+<li>Build an image using Docker</li>
+<li>Create a container to run the application</li>
+<li>Describe and implement <a href="https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#best-practices-for-writing-dockerfiles">Dockerfile</a> and <a href="https://docs.docker.com/compose/overview/#/common-use-cases">Docker Compose</a></li>
+</ul>
+
+<p>If you haven’t already, <a href="https://www.docker.com/products/docker">install</a> the latest version, and let’s get started.</p>
+
+<h2 id="building-an-app">BUILDING AN APP</h2>
+
+<p><a href="https://golang.org/">Go</a> is a language that is particular about its environment set up. Which makes it a perfect example for using Docker.</p>
+
+<p>Let’s start with the basics. Create a <code>main.go</code> file and add a simple hello world.</p>
+
+<pre><code>package main
+
+import &quot;fmt&quot;
+
+func main() {
+    fmt.Println(&quot;Hello, 世界&quot;)
+} 
+</code></pre>
+
+<p>Now type the following to run it</p>
+
+<pre><code>docker run --rm -v $(pwd):/docker-example -w /docker-example golang sh -c 'go run main.go'
+</code></pre>
+
+<p><code>Hello, 世界</code> should print.</p>
+
+<p>Simple right? Not really. And this is not how I use it but it’s a great place to start. So let’s take it bit by bit:</p>
+
+<ul>
+<li><code>docker run</code> executes a command in a new container</li>
+<li><code>--rm</code> removes the container after we exit (no need to keep this one)</li>
+<li><code>-v</code> mounts a directory to the container. This is key to be able to edit the files on our machine</li>
+<li><code>$(pwd):/docker-example</code> takes our current directory and mounts it at <code>/docker-example</code></li>
+<li><code>-w /docker-example</code> changes the working directory to be the one we mounted</li>
+<li><code>golang</code> uses the <a href="https://hub.docker.com/_/golang/">official image</a> to execute Go code</li>
+<li><code>sh -c</code> runs the shell command</li>
+<li><code>'go run main.go'</code> is the Go command to run our file</li>
+</ul>
+
+<p>Better? This command takes the <code>golang</code> image and builds a new container that is deleted as soon as it exits.</p>
+
+<p>Let’s try it again, but this time we are going to keep the StandardIn open to interact with the container. First, let’s make our application a little more robust. We can use the sample application from one of my earlier posts</p>
+
+<pre><code>package main
+
+import (
+        &quot;os&quot;
+
+        &quot;github.com/gin-gonic/gin&quot;
+)
+
+func main() {
+        r := gin.Default()
+
+        port := os.Getenv(&quot;PORT&quot;)
+        if port == &quot;&quot; {
+            port = &quot;3000&quot;
+        }
+
+        r.GET(&quot;/&quot;, func(c *gin.Context) {
+            c.JSON(200, gin.H{
+                &quot;Docker&quot;: &quot;Is Awesome!&quot;,
+            })
+        })
+
+        r.Run(&quot;:&quot; + port)
+}
+</code></pre>
+
+<p>Now run the following</p>
+
+<pre><code>docker run --name docker-example -it -p 3000:3000 -v $(pwd):/go/src/docker-example golang /bin/bash
+</code></pre>
+
+<p>We removed</p>
+
+<ul>
+<li>the shell command to run the app since we will be doing it manually</li>
+<li><code>-w</code> to point us to the working directory since we can traverse with commands</li>
+<li><code>--rm</code> to delete the container. Let’s keep this one</li>
+</ul>
+
+<p>We added</p>
+
+<ul>
+<li><code>--name</code> to give it an alias so we can start it easier</li>
+<li><code>-it</code> opens the STDIN</li>
+<li><code>-p 3000:3000</code> opens a port. In this case, it maps port 3000 to our localhost:3000</li>
+<li><code>/bin/bash</code> runs bash</li>
+</ul>
+
+<p>We should be interacting with the container. Before the cursor, we should see <code>root@[some-container-id]</code>. We can <code>cd src/docker-example</code> and there we will find <code>main.go</code>. Before we can run the file, we need to install the dependencies.</p>
+
+<pre><code>go get github.com/gin-gonic/gin
+</code></pre>
+
+<p>Now we can run it with <code>go run main.go</code> and if we go to <code>localhost:3000</code> on our broswer, we will see</p>
+
+<pre><code>{
+    &quot;Docker&quot;: &quot;Is Awesome!&quot;
+}
+</code></pre>
+
+<p>Yay!! We did it! Since we mounted our files, any changes we make to this directory will reflect in our local directory so we can start developing…</p>
+
+<p>There’s only a few things to keep in mind. If we close the connection, we can connect again to our container with</p>
+
+<pre><code>docker start -i docker-example
+</code></pre>
+
+<p>We can delete it with</p>
+
+<pre><code>docker rm docker-example
+</code></pre>
+
+<p>But what if someone else wants to work with the same container’s environment? We wouldn’t want to install all the dependencies manually. Also, typing that long command to create a container is highly inconvinient. That’s where Dockerfile and Docker Compose come to the rescue.</p>
+
+<h2 id="dockerfile-and-docker-compose">DOCKERFILE AND DOCKER COMPOSE</h2>
+
+<p>First, let’s tackle the problem with dependencies and environment set up with a Dockerfile. Like a <a href="https://en.wikipedia.org/wiki/Makefile">Makefile</a> contains a set of directives to run, a <a href="https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/">Dockerfile</a> contains a list of commands to build an image. Instead of using the official <code>golang</code> image, we want to use our image that is built on top of the <code>golang</code> image.</p>
+
+<p>To do that, create a <code>Dockerfile</code> and include the following</p>
+
+<pre><code>FROM golang
+RUN go get github.com/gin-gonic/gin
+WORKDIR /go/src/docker-example
+</code></pre>
+
+<p>This simply says to use the <code>golang</code> image, install the <code>gin</code> dependency, and change our working directory. Obviously our app is basic and doesn’t require much environment configuration. In the <a href="https://docs.docker.com/engine/reference/builder/">docs</a> we can read more about other options to include. For our purposes, this is all our image needs.</p>
+
+<p>Enter <code>docker build -t docker-example .</code> to build it. The <code>-t</code> gives it a name of <code>docker-example</code> and the <code>.</code> points to the current directory.</p>
+
+<p>If all goes well, we can see the new image with <code>docker images</code>. We can now use it to build our app container with the command we were using before but instead of <code>golang</code> we use our <code>docker-example</code> image</p>
+
+<pre><code>docker run -it -p 3000:3000 -v $(pwd):/go/src/docker-example docker-example /bin/bash
+</code></pre>
+
+<p>Again, that command is painfully inconvinient to remember. Instead, let’s use <a href="https://docs.docker.com/compose/overview/#/common-use-cases">Docker Compose</a> to create our container. Add a <code>docker-compose.yml</code> file and include</p>
+
+<pre><code>version: '2'
+services:
+    web: 
+       build: .
+       command: go run main.go
+       volumes:
+           - .:/go/src/docker-example
+       ports:
+           - &quot;3000:3000&quot;
+</code></pre>
+
+<ul>
+<li>The first two lines specify the version and the services available.</li>
+<li><code>build</code> points do the Dockerfile to build the image</li>
+<li><code>command</code> tells it how to run our app</li>
+<li><code>volumes</code> mounts the current directory like we were doing before with <code>-v</code></li>
+<li><code>ports</code> opens the port like <code>-p</code></li>
+</ul>
+
+<p>Build the image with <code>docker-compose build</code></p>
+
+<p>And lastly, run the image with <code>docker-compose up</code></p>
+
+<p><img src="https://berto.github.io/img/docker-compose.png" alt="docker compose" /></p>
+
+<h2 id="next-steps">NEXT STEPS</h2>
+
+<p>That’s a good start, but there’s plenty to go from here. Add a database or play with a different language: take a look at the <a href="https://docs.docker.com/compose/rails/">Docker Compose Rails Example</a> to set up an app with a postgres image.</p>
+
+<p>Hopefully you’ll be enticed to use docker for your next personal project. If not, I leave you here two useful commands</p>
+
+<pre><code># Delete all containers
+docker rm $(docker ps -a -q)
+# Delete all images
+docker rmi $(docker images -q)
+</code></pre>
+
+<p><img src="https://berto.github.io/img/gopher7.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/using-docker-for-web-development\/';
+    var disqus_title = 'Using Docker for Web Development';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/using-docker-for-web-development\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+
+  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

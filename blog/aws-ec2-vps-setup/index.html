@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Example blog">
+
+<base href="https://berto.github.io">
+<title>
+
+
+     Berto - AWS EC2 VPS Setup 
+
+</title>
+<link rel="canonical" href="https://berto.github.io/blog/aws-ec2-vps-setup/">
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
+<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://berto.github.io/img/zerg.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+
+<section class="header"> 
+
+    <div class="container">
+        <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
+        <div class="content">
+            <a href="https://berto.github.io"><div class="name"><h1>Berto</h1></div></a>
+            <nav>
+                <ul>
+                    
+                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                    
+                    
+                        
+                    
+                        
+                            
+                        
+                    
+                        
+                            
+                            <a href="projects"><li>projects</li></a>
+                            
+                        
+                    
+                    
+                        
+                    
+                        
+                            <a href="https://berto.github.io/about/"><li>about</li></a>
+                        
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="https://github.com/berto" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="https://twitter.com/@bertoort" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://www.linkedin.com/in/bertoort" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+            <a href="mailto:berto.ort@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+
+        
+            <a href="https://berto.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    AWS EC2 VPS Setup
+
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sat Jun 18 2016 20:08:23 -0700">Jun 18, 2016</div>
+                    <div class="reading-time"><div class="middot"></div>3 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<ul>
+<li><a href="https://berto.github.io/blog/aws-ec2-vps-setup/#set-up-server">Set Up Server</a></li>
+<li><a href="https://berto.github.io/blog/aws-ec2-vps-setup/#buy-domain">Buy Domain</a></li>
+<li><a href="https://berto.github.io/blog/aws-ec2-vps-setup/#power-up-ubuntu-server">Power Up Ubuntu Server</a></li>
+<li><a href="https://berto.github.io/blog/aws-ec2-vps-setup/#next-steps">Next Steps</a></li>
+</ul>
+
+<p>Part of being a developer is having your own virtual private server (VPS). Personally, I’m a big fan of <a href="https://www.digitalocean.com/">Digital Ocean</a>. Amazon however offers a year of free service, so to keep our beer budget intact, in this tutorial, I’ll walk you step by step on setting up an EC2 Instance on AWS.</p>
+
+<h2 id="set-up-server">SET UP SERVER</h2>
+
+<h4 id="create-aws-account">Create AWS Account</h4>
+
+<p>Go into <a href="https://aws.amazon.com/">AWS</a> and set up an account. It’s free with the basic account but credit card and phone verification is still required. Takes a few minutes. Then, dive into EC2.</p>
+
+<p><img src="https://berto.github.io/img/aws/first.png" alt="first" /></p>
+
+<h4 id="create-an-instance">Create an Instance</h4>
+
+<p>Go to “My Account” &gt; “AWS Management Console”. Then “Launch Instance”:</p>
+
+<p><img src="https://berto.github.io/img/aws/second.png" alt="second" /></p>
+
+<p>Choose 64-bit Ubuntu Server.</p>
+
+<p><img src="https://berto.github.io/img/aws/third.png" alt="third" /></p>
+
+<p>Launch Instance with the free tier.</p>
+
+<p><img src="https://berto.github.io/img/aws/fourth.png" alt="fourth" /></p>
+
+<p>Open up HTTP connection on port 80 for your server.</p>
+
+<p><img src="https://berto.github.io/img/aws/fifth.png" alt="fifth" /></p>
+
+<p>A prompt to add key pair will show up. Create and download a new one. (don’t lose it)</p>
+
+<p><img src="https://berto.github.io/img/aws/sixth.png" alt="sixth" /></p>
+
+<p>Launch again!</p>
+
+<p><img src="https://berto.github.io/img/aws/seventh.png" alt="seventh" /></p>
+
+<h4 id="connecting-through-ssh">Connecting through SSH</h4>
+
+<p>Let&rsquo;s take a look at our instances now.</p>
+
+<p><img src="https://berto.github.io/img/aws/eigth.png" alt="eigth" /></p>
+
+<p>Find the public IP for the instance that we created. We’ll use it in a bit.</p>
+
+<p><img src="https://berto.github.io/img/aws/ninth.png" alt="ninth" /></p>
+
+<p>Copy the SSH key (that was downloaded and not lost) and paste it into the ~/.ssh file. Then change ownership to secure it: <code>chmod 600 /.ssh [ssh_key].pem</code></p>
+
+<p>Now, connect to the instance: <code>ssh -i ~/.ssh/[ssh_key].pem ubuntu@[ip address]</code></p>
+
+<p><img src="https://berto.github.io/img/aws/tenth.png" alt="tenth" /></p>
+
+<h2 id="buy-domain">BUY DOMAIN</h2>
+
+<p>Go to a domain site and purchase a name. They range around $10. Here are some places to start:</p>
+
+<ul>
+<li><a href="https://www.namecheap.com/">https://www.namecheap.com/</a></li>
+<li><a href="https://www.name.com/">https://www.name.com/</a></li>
+<li><a href="https://domains.google.com/">https://domains.google.com/</a></li>
+</ul>
+
+<p>Then, navigate to editing the DNS records for that domain. Add a basic ~type A~ host with the IP of the AWS server previously set up and the name of the domain.</p>
+
+<p>Extra: add a ~type CNAME~ host with the same IP address and the name of www to catch and redirect anyone trying to go to www.yourdomain</p>
+
+<h2 id="power-up-ubuntu-server">POWER UP UBUNTU SERVER</h2>
+
+<h4 id="replace-ubuntu-user-not-necessary">Replace Ubuntu User (not necessary)</h4>
+
+<ul>
+<li>Connect back to the AWS Server: <code>ssh -i ~/.ssh/[ssh_key].pem ubuntu@[ip address]</code></li>
+<li>Add a new user through the following commands:</li>
+</ul>
+
+<p><code>sudo adduser [your name]</code>
+<code>sudo gpasswd -a [your name]</code></p>
+
+<ul>
+<li>Remove root user</li>
+</ul>
+
+<p><code>vi /etc/ssh/sshd_config</code></p>
+
+<ul>
+<li>find PermitRootLogin yes, and change to no</li>
+<li>service ssh restart</li>
+<li>su [your name]</li>
+</ul>
+
+<h4 id="install-tools">Install Tools</h4>
+
+<p>Use <code>sudo apt-get install</code> to install most technologies into the server. To get started, type <code>sudo apt-get update</code>.</p>
+
+<p>Nginx:</p>
+
+<p><code>apt-get install nginx</code></p>
+
+<p>Out of the box, nginx sets up a hello world on port 80. You should be able to navigate to your server from your browser (through the ip address or newly purchased domain) and see a welcome to nginx.</p>
+
+<h4 id="adding-a-project">Adding a Project</h4>
+
+<p>First, lets add the project to our server. For this demo, choose a static site. The easiest way is to use <code>git</code></p>
+
+<p><code>sudo apt-get install git</code></p>
+
+<p>then clone your project inside <code>/etc/nginx/sites-available/</code></p>
+
+<p>The main configuration of ngninx lives in <code>sudo vi /etc/nginx/sites-enabled/default</code>. There, you will see the server configurations for port, paths and project directory.</p>
+
+<p>To add your own project, change the <code>root</code> default path to the path of our added project:</p>
+
+<p><code>/etc/nginx/sites-available/{your-project-name}</code></p>
+
+<p>Always remember to restart the server after any change.</p>
+
+<p><code>sudo service nginx restart</code></p>
+
+<h2 id="next-steps">NEXT STEPS</h2>
+
+<p>From here, time to beef up your server. Look into the <a href="https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server">Digital Ocean</a> tutorials for setting up any language environment and <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04">Reverse Proxy Servers</a>.</p>
+
+<p><img src="https://berto.github.io/img/gopher6.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/aws-ec2-vps-setup\/';
+    var disqus_title = 'AWS EC2 VPS Setup';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/aws-ec2-vps-setup\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+
+  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

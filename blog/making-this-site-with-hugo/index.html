@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Example blog">
+
+<base href="https://berto.github.io">
+<title>
+
+
+     Berto - Making This Site with Hugo 
+
+</title>
+<link rel="canonical" href="https://berto.github.io/blog/making-this-site-with-hugo/">
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
+<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://berto.github.io/img/zerg.png"
+
+>
+
+
+
+
+</head>
+
+
+<body lang="en">
+
+
+<section class="header"> 
+
+    <div class="container">
+        <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
+        <div class="content">
+            <a href="https://berto.github.io"><div class="name"><h1>Berto</h1></div></a>
+            <nav>
+                <ul>
+                    
+                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                    
+                    
+                        
+                    
+                        
+                            
+                        
+                    
+                        
+                            
+                            <a href="projects"><li>projects</li></a>
+                            
+                        
+                    
+                    
+                        
+                    
+                        
+                            <a href="https://berto.github.io/about/"><li>about</li></a>
+                        
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="https://github.com/berto" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="https://twitter.com/@bertoort" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://www.linkedin.com/in/bertoort" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+            <a href="mailto:berto.ort@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+
+        
+            <a href="https://berto.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Making This Site with Hugo
+
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sat Dec 3 2016 23:46:44 MST">Dec 3, 2016</div>
+                    <div class="reading-time"><div class="middot"></div>4 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<ul>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#introduction">Introduction</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#installation">Installation</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#picking-a-theme">Picking A Theme</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#generating-an-app">Generating An App</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#customizing-the-app">Customizing The App</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#adding-content">Adding Content</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#deployment">Deployment</a></li>
+<li><a href="https://berto.github.io/blog/making-this-site-with-hugo/#next-steps">Next Steps</a></li>
+</ul>
+
+<h2 id="introduction">INTRODUCTION</h2>
+
+<p><a href="https://davidwalsh.name/introduction-static-site-generators">Static site generators</a> are fun.
+After building many sites, being able to scaffold one in minutes can be extremely convenient.
+If the goal is to write a blog, there is no need to wireframe, create the html layout, style, etc. Simply generate the app and start typing.</p>
+
+<p><a href="https://gohugo.io/">Hugo</a> is my favorite static site generator. If you know me, the fact that it is written in <a href="https://golang.org/">Go</a> already wins my heart.
+But it&rsquo;s also ridiculously fast and easy to use. I will do my best to demonstrate such ease to get a site up and going in minutes.</p>
+
+<h2 id="installation">INSTALLATION</h2>
+
+<p>If you have a Mac and <a href="http://brew.sh/">Homebrew</a></p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p>Otherwise, look into the <a href="https://github.com/spf13/hugo/releases">release list.</a></p>
+
+<h2 id="picking-a-theme">PICKING A THEME</h2>
+
+<p>Before entering any commands or coding a single character, I like to plan and know what I am making.</p>
+
+<p>The first step for us is to pick out a theme. Here is an <a href="http://themes.gohugo.io/">extensive list</a> that keeps growing everyday.</p>
+
+<p>When picking a theme, make sure it has the layout and features you will need. Think of navigation bar, routes, and customization. Most themes provide a demo to play around with.</p>
+
+<p>It is not a deal breaker if it doesn&rsquo;t have everything you need. You can customize a theme fairly easy, but it is less work overall.</p>
+
+<p>After picking a theme, make sure to find the <code>config.toml</code> file, we will need this to configure our app.</p>
+
+<h2 id="generating-an-app">GENERATING AN APP</h2>
+
+<p>The <code>hugo</code> commands are pretty straightforward. To start:</p>
+
+<pre><code>hugo new site .
+</code></pre>
+
+<p>This will immediately create an app in the current directory, hence the <code>.</code>.</p>
+
+<p>Now, let&rsquo;s add our theme. Go to the source code of the theme. <a href="https://github.com/spf13/hugoThemes">Here</a> is the repo containing all the themes. For this site, I used the <a href="https://github.com/fuegowolf/cocoa-eh-hugo-theme">cocoa-eh</a> theme.</p>
+
+<p>To add it, simply clone it with <code>git</code> into a themes directory. For example:</p>
+
+<pre><code>git clone https://github.com/fuegowolf/cocoa-eh-hugo-theme.git ./themes/cocoa-eh
+</code></pre>
+
+<p>Copy the <code>config.toml</code> file provided by the theme to the root of the project. Sometimes it is easily provided by the theme, other times look into the demo source code. <a href="https://github.com/fuegowolf/cocoa-eh-hugo-theme/blob/master/exampleSite/config.toml">This</a> is an example of one.</p>
+
+<p>Customize it with your information.</p>
+
+<p>When that&rsquo;s done, serve the application with the new theme</p>
+
+<pre><code>hugo server -D
+</code></pre>
+
+<p>The new site should be up and running on <code>localhost:1313</code></p>
+
+<h2 id="customizing-the-app">CUSTOMIZING THE APP</h2>
+
+<p>As I mentioned before, customizing a <code>hugo</code> app is fairly easy. Inside the theme directory, there is <code>layouts</code> and a <code>static</code> directory.</p>
+
+<p>The <code>static</code> directory is where you can add any assets, <code>css</code>, or <code>js</code> files.</p>
+
+<p>Link to them in the <code>layouts</code> directory. Inside the <code>partials</code>, you&rsquo;ll find the header and footer to add any scripts.</p>
+
+<p>The one unfamiliar syntax you might find is the &ldquo;Actions&rdquo; surrounded by <code>{{</code> and <code>}}</code>. This is <a href="https://golang.org/pkg/text/template/">Go&rsquo;s Template</a> syntax, very similar to <a href="http://handlebarsjs.com/">Handlebars</a>. The &ldquo;Actions&rdquo; are basically arguments or pipelines to add value and logic to the template.</p>
+
+<p>In our case, we can use it to link to our files with the correct path. There are many variables available, the one we will use is <code>{{ .Site.BaseURL }}</code>, which as you might have guessed, represents your app URL defined in the <code>config.toml</code>.</p>
+
+<p>E.g.</p>
+
+<pre><code>&lt;script src=&quot;{{ .Site.BaseURL }}/js/app.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+</code></pre>
+
+<h2 id="adding-content">ADDING CONTENT</h2>
+
+<p>Depending on the type of site, we will want to add some personal content. Inside the project, there is a <code>contents</code> directory. This is where the markdown files live and are parsed into html from.</p>
+
+<p><code>Hugo</code> themes will usually specify what files it is looking for. Some common ones are <code>about.md</code>, <code>blog/</code>, and <code>projects/</code>.</p>
+
+<p>We can create these files manually, but the preferred method is to generate them with <code>hugo</code>:</p>
+
+<pre><code>hugo new blog/this-is-a-new-blog.md
+</code></pre>
+
+<p>or</p>
+
+<pre><code>hugo new about.md
+</code></pre>
+
+<h2 id="deployment">DEPLOYMENT</h2>
+
+<p>So far we&rsquo;ve been running a <code>hugo</code> server to edit our new application. To generate the static files with our theme, run:</p>
+
+<pre><code>hugo -t [theme-name]
+</code></pre>
+
+<p>That&rsquo;s it! The <code>public</code> directory will contain our new and wonderful application. You can deploy it to any static site host. <a href="https://pages.github.com/">Github Pages</a> is my host of choice. There is a nice tutorial <a href="https://gohugo.io/tutorials/github-pages-blog/">here</a> to create a <code>deploy.sh</code> for easy deployment.</p>
+
+<h2 id="next-steps">NEXT STEPS</h2>
+
+<p>Checkout <a href="https://github.com/berto/berto.github.io">this site&rsquo;s repo</a> for more code examples.</p>
+
+<p>If you find yourself customizing a lot of your theme, I highly encourage you to <a href="https://gohugo.io/themes/creation/">create your own hugo theme</a>.</p>
+
+<p>Also, feel free to checkout <a href="https://www.staticgen.com/">other static site generators</a>.</p>
+
+<p><img src="https://berto.github.io/img/gopher6.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/making-this-site-with-hugo\/';
+    var disqus_title = 'Making This Site with Hugo';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/making-this-site-with-hugo\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+
+  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+
