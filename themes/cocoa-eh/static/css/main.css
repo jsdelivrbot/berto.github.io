@@ -731,6 +731,22 @@ section.main .content .markdown blockquote {
 section.main .content .markdown blockquote p:last-child {
   margin-bottom: 0;
 }
+.round {
+  border-radius: 5px;
+}
+
+body {
+  border-top: 2px #BD6CB5 solid;
+}
+
+.extend {
+  max-width: 0px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+}
 @media (min-width: 550px) {
   section.main .content .markdown blockquote {
     padding-right: 5rem;
@@ -758,10 +774,7 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
-
-.round {
-  border-radius: 5px;
+.name:hover .extend {
+  max-width: 200px;
 }
-body {
-  border-top: 2px #BD6CB5 solid;
 }
