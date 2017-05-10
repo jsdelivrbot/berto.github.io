@@ -22,3 +22,9 @@ document.addEventListener( 'click' , (e) => {
       .replay();
   }
 })
+
+console.set({size: '2em'});
+console.party('Welcome to my console!!');
+console.set({size: '1em', style: 'pink'});
+console.print('Nothing but beautiful text');
+console.log('https://github.com/berto/fun-logger');
