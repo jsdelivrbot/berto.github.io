@@ -6,8 +6,109 @@
     <description>Recent content on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 27 Jul 2017 14:55:03 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 19 Aug 2017 20:08:23 -0700</lastBuildDate>
     <atom:link href="https://berto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Freelance Web Development</title>
+      <link>https://berto.github.io/blog/freelance-web-development/</link>
+      <pubDate>Sat, 19 Aug 2017 20:08:23 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/freelance-web-development/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#my-work&#34;&gt;My Work&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#how-to-freelance&#34;&gt;How to Freelance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#setting-expectations&#34;&gt;Setting Expectations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#templates-and-generators&#34;&gt;Templates and Generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#hand-off&#34;&gt;Hand Off&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;my-work&#34;&gt;My Work&lt;/h2&gt;
+
+&lt;p&gt;In my career, I&amp;rsquo;ve done some freelance work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://leviandangie.bertoort.com/&#34;&gt;Wedding Site&lt;/a&gt; - &lt;a href=&#34;https://bitbucket.org/bertoort/front-end-levi-and-angie&#34;&gt;Ember Code&lt;/a&gt; and &lt;a href=&#34;https://bitbucket.org/bertoort/back-end-levi-and-angie&#34;&gt;Rails Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://numinousbodywork.com/&#34;&gt;Business Site&lt;/a&gt; - &lt;a href=&#34;https://github.com/berto/numinousbodywork&#34;&gt;Code&lt;/a&gt; using a static site generator (Hugo)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rjtravels.world/&#34;&gt;Travel Blog&lt;/a&gt; - &lt;a href=&#34;https://github.com/berto/rj-travels&#34;&gt;Rails Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All which have been done more as favors with little compensation. It was mostly to explore the idea of freelancing
+and what it entails for a web developer.&lt;/p&gt;
+
+&lt;p&gt;Should you do it? If you&amp;rsquo;re a web developer and you&amp;rsquo;re considering doing freelancing, I can&amp;rsquo;t tell you whether it&amp;rsquo;s
+a good idea or not, but I can share my experience and advice on it.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-freelance&#34;&gt;How to Freelance&lt;/h2&gt;
+
+&lt;p&gt;To be a freelancer you need to be a business man. Regardless if you&amp;rsquo;re building a site for a friend or building sites for
+money, they are the client and you are the seller.&lt;/p&gt;
+
+&lt;p&gt;The benefit of working with a friend is that you don&amp;rsquo;t have to worry about legalities. As a personal business, there is
+always the chance that someone can sue you or not pay you. Make sure to have a lawyer or look online for legal
+contracts that can protect you.&lt;/p&gt;
+
+&lt;p&gt;Personally, I don&amp;rsquo;t have a freelancing business so I can&amp;rsquo;t talk much about that. I can talk about working with a client,
+figuring out due dates, requirements, and managing expectations.&lt;/p&gt;
+
+&lt;h2 id=&#34;setting-expectations&#34;&gt;Setting Expectations&lt;/h2&gt;
+
+&lt;p&gt;Before building anything, it is crucial talk about expectations with your client. I inquire about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What kind of website do you want?&lt;/li&gt;
+&lt;li&gt;Do you have any design ideas or examples?&lt;/li&gt;
+&lt;li&gt;When do you need the site to be done by?&lt;/li&gt;
+&lt;li&gt;What content do you have available (images, writings, etc.)?&lt;/li&gt;
+&lt;li&gt;How often do you foresee yourself wanting to make changes?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The goal is to learn what your client wants and how much work it&amp;rsquo;s going to take from you. If they have the design all
+done with images available, you don&amp;rsquo;t have to do mockups. If they want dynamic content, you&amp;rsquo;ll need a server with back
+end configurations. If they want to make constant changes, you will also need to build their interface to add content.&lt;/p&gt;
+
+&lt;p&gt;Ask tons of questions. After getting a good sense of what they need, you can be more honest about meeting their deadline
+and how much it&amp;rsquo;s going to cost. I encourage charging per hour, not per project. Clients have a tendency to change their
+mind and add new features.&lt;/p&gt;
+
+&lt;p&gt;Be Agile about it too. Don&amp;rsquo;t tell them it&amp;rsquo;ll be done by a certain time, give them a rough estimate and work on iterations.
+Tell them you&amp;rsquo;ll work on a few features and check back weekly to show your progress. At each meeting, reevaluate the plan
+and tell them what you&amp;rsquo;ll be working on for the week.&lt;/p&gt;
+
+&lt;h2 id=&#34;templates-and-generators&#34;&gt;Templates and Generators&lt;/h2&gt;
+
+&lt;p&gt;Now that you are clear with what you&amp;rsquo;re building, it&amp;rsquo;s time to start coding.&lt;/p&gt;
+
+&lt;p&gt;Content Management Systems, such as Wordpress or Drupal, are ideal for freelancers. They have great templates so
+you don&amp;rsquo;t have to build everything from scratch, they have great support for deploying and hosting, and most importantly,
+excellent GUI for your clients to manage their site after you build it. The down side is that you have to learn a lot on
+how to use a CMS which takes a lot of work.&lt;/p&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t want to learn how to use a CMS, you can do it my way and look into &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;static site generators&lt;/a&gt;
+or frameworks like Ember or Rails that make web development easier.&lt;/p&gt;
+
+&lt;p&gt;A lot of the work goes into front-end development. I like to use free templates from the web like &lt;a href=&#34;https://html5up.net/&#34;&gt;HTML5 UP&lt;/a&gt;
+whenever possible.&lt;/p&gt;
+
+&lt;h2 id=&#34;hand-off&#34;&gt;Hand Off&lt;/h2&gt;
+
+&lt;p&gt;Something to keep in mind from the beginning is the work required after the site is built. What if your client wants
+to add a new feature or there is a little bug?&lt;/p&gt;
+
+&lt;p&gt;The easiest way is to hand off everything to the client and they can hire you again if they want more work to be done
+to the site. I create an email account for the user, purchase domains, hosting services, and other services with that
+account and have the client own it. Any hosting or set up fees I have the client pay themselves or reimburse me.&lt;/p&gt;
+
+&lt;p&gt;I like to use AWS services for price and convenience: &lt;a href=&#34;https://aws.amazon.com/ec2/&#34;&gt;EC2&lt;/a&gt; for web hosting and &lt;a href=&#34;https://aws.amazon.com/s3/&#34;&gt;S3&lt;/a&gt; for static hosting or images.&lt;/p&gt;
+
+&lt;p&gt;You want to set it up so any developer can pick up from where you left off. Be organized and write necessary documentation.
+It&amp;rsquo;s good practice and helpful even for you when you go back to the project after a long period of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/starcrafts_3.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Vango Twitter Bot</title>
@@ -629,22 +730,6 @@ But it&amp;rsquo;s also ridiculously fast and easy to use. I will do my best to 
 &lt;p&gt;Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/berto/flashcards&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CLI Image to Unicode Display Tool</title>
-      <link>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</link>
-      <pubDate>Sat, 12 Nov 2016 14:55:03 -0700</pubDate>
-      
-      <guid>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/udraw.png&#34; alt=&#34;udraw&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I call it udraw. Basically it takes a unicode file and displays it in the terminal.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/udraw&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
 </description>

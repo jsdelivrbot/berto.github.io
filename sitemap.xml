@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://berto.github.io/blog/freelance-web-development/</loc>
+    <lastmod>2017-08-19T20:08:23-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://berto.github.io/projects/vango-twitter-bot/</loc>
     <lastmod>2017-07-27T14:55:03-07:00</lastmod>
   </url>
@@ -138,13 +143,13 @@
   
   <url>
     <loc>https://berto.github.io/</loc>
-    <lastmod>2017-07-27T14:55:03-07:00</lastmod>
+    <lastmod>2017-08-19T20:08:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://berto.github.io/blog/</loc>
-    <lastmod>2017-05-27T22:25:43-07:00</lastmod>
+    <lastmod>2017-08-19T20:08:23-07:00</lastmod>
     <priority>0</priority>
   </url>
   
