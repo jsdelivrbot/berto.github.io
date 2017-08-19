@@ -4,7 +4,7 @@ title = "How To Store User Images"
 
 +++
 
-- [Intro](/blog/how-to-store-user-images/#intro)
+- [Introduction](/blog/how-to-store-user-images/#introduction)
 - [Ways of Storing Images](/blog/how-to-store-user-images/#ways-of-storing-images)
 - [Demo](/blog/how-to-store-user-images/#demo)
 
