@@ -6,8 +6,82 @@
     <description>Recent content in Projects on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 31 Jan 2017 15:53:28 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2017 14:55:03 -0700</lastBuildDate>
     <atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vango Twitter Bot</title>
+      <link>https://berto.github.io/projects/vango-twitter-bot/</link>
+      <pubDate>Thu, 27 Jul 2017 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/vango-twitter-bot/</guid>
+      <description>&lt;p&gt;Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles
+and post them on Twitter. The program can also generate hexagon-tiled images.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/hexagon.png&#34; alt=&#34;vango&#34; /&gt;
+&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/alarak-hexagons.jpg&#34; alt=&#34;vango&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/vango&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fun Logger</title>
+      <link>https://berto.github.io/projects/fun-logger/</link>
+      <pubDate>Thu, 11 May 2017 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/fun-logger/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/fun-logger/master/assets/methods.png&#34; alt=&#34;funlog&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or
+check out the readme for more information and usage.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/fun-logger&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gorbit</title>
+      <link>https://berto.github.io/projects/gorbit/</link>
+      <pubDate>Fri, 05 May 2017 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/gorbit/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/gorbit.png&#34; alt=&#34;gorbit&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/gorbit&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Peer Review App</title>
+      <link>https://berto.github.io/projects/peer-review/</link>
+      <pubDate>Mon, 24 Apr 2017 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/peer-review/</guid>
+      <description>&lt;p&gt;Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors.
+You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted,
+the app display the results grouped by students.&lt;/p&gt;
+
+&lt;p&gt;The app is build with React/Redux and TypeScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/peer-review.png&#34; alt=&#34;peer&#34; /&gt;
+&lt;img src=&#34;https://berto.github.io/img/projects/peer-review1.png&#34; alt=&#34;peer&#34; /&gt;
+&lt;img src=&#34;https://berto.github.io/img/projects/peer-review2.png&#34; alt=&#34;peer&#34; /&gt;
+&lt;img src=&#34;https://berto.github.io/img/projects/peer-review3.png&#34; alt=&#34;peer&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/peer-review&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Projects</title>

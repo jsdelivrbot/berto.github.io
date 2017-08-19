@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://berto.github.io/projects/vango-twitter-bot/</loc>
+    <lastmod>2017-07-27T14:55:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/vuex-vs-react-redux/</loc>
+    <lastmod>2017-05-27T22:25:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/fun-logger/</loc>
+    <lastmod>2017-05-11T14:55:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/gorbit/</loc>
+    <lastmod>2017-05-05T14:55:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/projects/peer-review/</loc>
+    <lastmod>2017-04-24T14:55:03-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/image-to-font/</loc>
+    <lastmod>2017-04-15T22:25:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://berto.github.io/blog/how-to-store-user-images/</loc>
+    <lastmod>2017-03-23T22:25:43-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://berto.github.io/blog/introduction-to-haskell/</loc>
     <lastmod>2017-02-02T23:55:51-07:00</lastmod>
   </url>
@@ -103,19 +138,19 @@
   
   <url>
     <loc>https://berto.github.io/</loc>
-    <lastmod>2017-02-02T23:55:51-07:00</lastmod>
+    <lastmod>2017-07-27T14:55:03-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://berto.github.io/blog/</loc>
-    <lastmod>2017-02-02T23:55:51-07:00</lastmod>
+    <lastmod>2017-05-27T22:25:43-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://berto.github.io/projects/</loc>
-    <lastmod>2017-01-31T15:53:28-07:00</lastmod>
+    <lastmod>2017-07-27T14:55:03-07:00</lastmod>
     <priority>0</priority>
   </url>
   

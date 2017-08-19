@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Example blog">
+
+<base href="https://berto.github.io">
+<title>
+
+
+     Berto - Image To Font 
+
+</title>
+<link rel="canonical" href="https://berto.github.io/blog/image-to-font/">
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://berto.github.io/css/reset.css">
+<link rel="stylesheet" href="https://berto.github.io/css/main.css">
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://berto.github.io/img/zerg.png"
+
+>
+
+
+
+
+
+<script src="https://cdn.rawgit.com/berto/fun-logger/master/fun-logger-1.0.0.js" type="text/javascript"></script>
+
+</head>
+
+
+<body lang="en">
+
+
+<section class="header"> 
+
+    <div class="container">
+        <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
+        <div class="content">
+            <a href="https://berto.github.io">
+              <div class="name">
+                <h1><span class="extend">Ro</span>Berto<span class="extend">&nbsp;Ortega</span></h1>
+              </div>
+            </a>
+            <nav>
+                <ul>
+                    
+                        <a href="https://berto.github.io/blog/"><li>Blog</li></a>
+                    
+                    
+                        
+                    
+                        
+                            
+                        
+                    
+                        
+                            
+                            <a href="projects"><li>projects</li></a>
+                            
+                        
+                    
+                    
+                        
+                    
+                        
+                            <a href="https://berto.github.io/about/"><li>about</li></a>
+                        
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section class="icons">
+    <div class="container">
+        <div class="content">
+
+        
+            <a href="https://github.com/berto" target="_blank">
+                <i class="icon ion-social-github"></i>
+            </a>
+        
+        
+        
+            <a href="https://twitter.com/@bertoort" target="_blank">
+                <i class="icon ion-social-twitter"></i>
+            </a>
+        
+
+        
+            <a href="https://www.linkedin.com/in/bertoort" target="_blank">
+                <i class="icon ion-social-linkedin"></i>
+            </a>
+        
+
+        
+            <a href="mailto:berto.ort@gmail.com">
+                <i class="icon ion-ios-email larger"></i>
+            </a>
+        
+
+        
+            <a href="https://berto.github.io/index.xml">
+                <i class="icon ion-social-rss larger"></i>
+            </a>
+        
+        </div>
+    </div>
+</section>
+
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Image To Font
+
+</div>
+
+                </div>
+                <div class="meta">
+                    <div class="date" title="Sat Apr 15 2017 22:25:43 -0700">Apr 15, 2017</div>
+                    <div class="reading-time"><div class="middot"></div>2 minutes read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                
+
+<style>
+  @font-face {
+    font-family: 'Logo';
+    font-style: normal;
+    src: url('https://rawgit.com/berto/numinousbodywork/master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf');
+  }
+  .icon-logo {
+    line-height: 1em;
+    font-size: 500%;
+    font-family: "logo";
+    transition: color 1s;
+  }
+  .icon-logo:hover {
+    color: rebeccapurple;
+  }
+  .small {
+    font-size: 100%;
+  }
+</style>
+
+<ul>
+<li><a href="https://berto.github.io/blog/image-to-font/#intro">Intro</a></li>
+<li><a href="https://berto.github.io/blog/image-to-font/#from-pixels-to-vectors">From Pixels to Vectors</a></li>
+<li><a href="https://berto.github.io/blog/image-to-font/#from-svg-to-font">From SVG To Font</a></li>
+<li><a href="https://berto.github.io/blog/image-to-font/#include-with-css">Include With CSS</a></li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+
+<p>Recently I ran into the challenge of turning an image that a client provided into an icon.
+In order to use it as an icon, I had to included as a font in the CSS.</p>
+
+<p>This blog will walk through the steps and resources I used to make this font icon <span class="icon-logo small">&#xe900;</span> from a png.</p>
+
+<h3 id="icon">Icon</h3>
+
+<p><span class="icon-logo">&#xe900;</span></p>
+
+<h3 id="png">PNG</h3>
+
+<p><img src="https://raw.githubusercontent.com/berto/numinousbodywork/623b7a89/themes/hugo-future-imperfect/static/img/logo.png" width="100" height="100"></p>
+
+<h2 id="from-pixels-to-vectors">From Pixels To Vectors</h2>
+
+<p>The first step is to turn the <code>png</code> into <code>svg</code>. Portable Network Graphics (PNG) is a raster graphics file format.
+Raster images are made out of pixels. For fonts, we want vectors. Vector images are mathematical calculations from
+one point to another that form lines and shapes. Scalable Vector Graphics (SVG) is an XML-based vector image format.</p>
+
+<p>To turn the <code>png</code> into <code>svg</code> we need a vector graphics app. The industry standard is <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a>
+if you can affort it. I used the OSS <a href="https://inkscape.org/en/">Inkscape</a>, which is awesome!</p>
+
+<p>After uploading the image to the app, I followed <a href="http://www.thenoncraftycrafter.com/2015/02/inkscape.html">this tutorial</a>.</p>
+
+<h2 id="from-svg-to-font">From SVG To Font</h2>
+
+<p>Now that you have the <code>svg</code> format of the image, we need to crate a font family. After little googling I found <a href="https://icomoon.io/">IcoMoon</a>.
+It is a great app to make fonts out of <code>svg</code>&rsquo;s for free. If you use it correctly, it will generate multiple font file formats that include your icon:</p>
+
+<ul>
+<li><code>icomoon.eot</code></li>
+<li><code>icomoon.svg</code></li>
+<li><code>icomoon.ttf</code></li>
+<li><code>icomoon.woff</code></li>
+</ul>
+
+<h2 id="include-with-css">Include with CSS</h2>
+
+<p>The last step is to include the font into your website. First, create a font-face:</p>
+
+<pre><code class="language-css">  @font-face {
+    font-family: 'Logo';
+    font-style: normal;
+    src: url('path/to/icomoon.ttf');
+  }
+</code></pre>
+
+<p>Apply font family rule</p>
+
+<pre><code class="language-css">  .icon-logo {
+    font-family: &quot;logo&quot;;
+  }
+</code></pre>
+
+<p>Include into HTML. The HTML symbol for the icon is defined when you crate the font with IcoMoon.</p>
+
+<pre><code class="language-html">  &lt;span class=&quot;icon-logo&quot;&gt;&amp;#xe900;&lt;/span&gt;
+</code></pre>
+
+<p>That&rsquo;s it!</p>
+
+<p><img src="img/starcrafts_1.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/image-to-font\/';
+    var disqus_title = 'Image To Font';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/image-to-font\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+
+  <script src="https://berto.github.io/js/mo.js" type="text/javascript"></script>
+  <script src="https://berto.github.io/js/app.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    hljs.initHighlightingOnLoad();
+  </script>
+
+
+
+</body>
+</html>
+

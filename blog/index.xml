@@ -6,8 +6,203 @@
     <description>Recent content in Blog on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Feb 2017 23:55:51 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 27 May 2017 22:25:43 -0700</lastBuildDate>
     <atom:link href="https://berto.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Vuex vs React Redux</title>
+      <link>https://berto.github.io/blog/vuex-vs-react-redux/</link>
+      <pubDate>Sat, 27 May 2017 22:25:43 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/vuex-vs-react-redux/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/vuejs/vuex&#34;&gt;Vuex&lt;/a&gt; introduced me to another way of implementing Flux.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://facebook.github.io/flux/&#34;&gt;Flux&lt;/a&gt; is an &amp;ldquo;APPLICATION ARCHITECTURE FOR BUILDING USER INTERFACES&amp;rdquo;. If you ever build a single
+page app with multiple routes and nested components, managing state is a nightmare.
+Flux makes it easier to manage and it makes sense. I&amp;rsquo;ve used it in multiple react apps with &lt;a href=&#34;http://redux.js.org/&#34;&gt;Redux&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/berto/peer-review&#34;&gt;Peer Review&lt;/a&gt; being my last one,
+and it&amp;rsquo;s helpful. It takes a lot of work to set up and multiple files, but it makes sense in large applications.&lt;/p&gt;
+
+&lt;p&gt;I found the way &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; implements Flux to make more sense. I recently gave a talk at
+the Vue meetup about setting up Vuex from scratch (video below). This talk highlights the difference in jargon
+and flow of communication.&lt;/p&gt;
+
+&lt;p&gt;The biggest difference is that Vuex out of the box handles asynchronous events and
+the way to change state is with Mutations, which, as the name suggests, mutates the state instead of having
+the state immutable and replacing it with Reducers. Personally this is easier to reason about and is what
+you want to do anyways.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/berto/vuex-demo&#34;&gt;Code&lt;/a&gt; and &lt;a href=&#34;https://slides.com/robertoortega/vuex/live#/&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/I936jW7QbjM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  
+
+&lt;p&gt;&lt;img src=&#34;img/starcrafts_2.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image To Font</title>
+      <link>https://berto.github.io/blog/image-to-font/</link>
+      <pubDate>Sat, 15 Apr 2017 22:25:43 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/image-to-font/</guid>
+      <description>
+
+&lt;style&gt;
+  @font-face {
+    font-family: &#39;Logo&#39;;
+    font-style: normal;
+    src: url(&#39;https://rawgit.com/berto/numinousbodywork/master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf&#39;);
+  }
+  .icon-logo {
+    line-height: 1em;
+    font-size: 500%;
+    font-family: &#34;logo&#34;;
+    transition: color 1s;
+  }
+  .icon-logo:hover {
+    color: rebeccapurple;
+  }
+  .small {
+    font-size: 100%;
+  }
+&lt;/style&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#intro&#34;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#from-pixels-to-vectors&#34;&gt;From Pixels to Vectors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#from-svg-to-font&#34;&gt;From SVG To Font&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#include-with-css&#34;&gt;Include With CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;Recently I ran into the challenge of turning an image that a client provided into an icon.
+In order to use it as an icon, I had to included as a font in the CSS.&lt;/p&gt;
+
+&lt;p&gt;This blog will walk through the steps and resources I used to make this font icon &lt;span class=&#34;icon-logo small&#34;&gt;&amp;#xe900;&lt;/span&gt; from a png.&lt;/p&gt;
+
+&lt;h3 id=&#34;icon&#34;&gt;Icon&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&#34;icon-logo&#34;&gt;&amp;#xe900;&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;png&#34;&gt;PNG&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/berto/numinousbodywork/623b7a89/themes/hugo-future-imperfect/static/img/logo.png&#34; width=&#34;100&#34; height=&#34;100&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;from-pixels-to-vectors&#34;&gt;From Pixels To Vectors&lt;/h2&gt;
+
+&lt;p&gt;The first step is to turn the &lt;code&gt;png&lt;/code&gt; into &lt;code&gt;svg&lt;/code&gt;. Portable Network Graphics (PNG) is a raster graphics file format.
+Raster images are made out of pixels. For fonts, we want vectors. Vector images are mathematical calculations from
+one point to another that form lines and shapes. Scalable Vector Graphics (SVG) is an XML-based vector image format.&lt;/p&gt;
+
+&lt;p&gt;To turn the &lt;code&gt;png&lt;/code&gt; into &lt;code&gt;svg&lt;/code&gt; we need a vector graphics app. The industry standard is &lt;a href=&#34;http://www.adobe.com/products/illustrator.html&#34;&gt;Adobe Illustrator&lt;/a&gt;
+if you can affort it. I used the OSS &lt;a href=&#34;https://inkscape.org/en/&#34;&gt;Inkscape&lt;/a&gt;, which is awesome!&lt;/p&gt;
+
+&lt;p&gt;After uploading the image to the app, I followed &lt;a href=&#34;http://www.thenoncraftycrafter.com/2015/02/inkscape.html&#34;&gt;this tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;from-svg-to-font&#34;&gt;From SVG To Font&lt;/h2&gt;
+
+&lt;p&gt;Now that you have the &lt;code&gt;svg&lt;/code&gt; format of the image, we need to crate a font family. After little googling I found &lt;a href=&#34;https://icomoon.io/&#34;&gt;IcoMoon&lt;/a&gt;.
+It is a great app to make fonts out of &lt;code&gt;svg&lt;/code&gt;&amp;rsquo;s for free. If you use it correctly, it will generate multiple font file formats that include your icon:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;icomoon.eot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icomoon.svg&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icomoon.ttf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icomoon.woff&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;include-with-css&#34;&gt;Include with CSS&lt;/h2&gt;
+
+&lt;p&gt;The last step is to include the font into your website. First, create a font-face:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  @font-face {
+    font-family: &#39;Logo&#39;;
+    font-style: normal;
+    src: url(&#39;path/to/icomoon.ttf&#39;);
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apply font family rule&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  .icon-logo {
+    font-family: &amp;quot;logo&amp;quot;;
+  }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Include into HTML. The HTML symbol for the icon is defined when you crate the font with IcoMoon.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;span class=&amp;quot;icon-logo&amp;quot;&amp;gt;&amp;amp;#xe900;&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/starcrafts_1.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How To Store User Images</title>
+      <link>https://berto.github.io/blog/how-to-store-user-images/</link>
+      <pubDate>Thu, 23 Mar 2017 22:25:43 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/how-to-store-user-images/</guid>
+      <description>
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#ways-of-storing-images&#34;&gt;Ways of Storing Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#demo&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;You want your users to be able to upload images, profile pictures, receipts, and so on, but you are not sure where to
+save it or how to do it.&lt;/p&gt;
+
+&lt;p&gt;This is a short blog addressing this issue. I will talk about the different ways, but more importantly, link to a
+demo repo that walks through the process of uploading images using Amazon Services.&lt;/p&gt;
+
+&lt;h2 id=&#34;ways-of-storing-images&#34;&gt;Ways of storing images&lt;/h2&gt;
+
+&lt;p&gt;There are many ways to approach it:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;File System&lt;/li&gt;
+&lt;li&gt;DB (mysql, postgresql)&lt;/li&gt;
+&lt;li&gt;Third party (AWS, Cloudinary)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First off, you need a client to grab the image and send it to the client. Then, the server can parse the image
+and store it. Storing it on your file system is a possibility but highly discouraged. It&amp;rsquo;s difficult to guarantee
+data consistency. The better way is using a database. The downside is memory space and managing images as blobs
+(Binary Large OBjectS).&lt;/p&gt;
+
+&lt;p&gt;I encourage using a third party such as &lt;a href=&#34;https://aws.amazon.com/s3/&#34;&gt;AWS S3&lt;/a&gt; or &lt;a href=&#34;http://cloudinary.com/&#34;&gt;Cloudinary&lt;/a&gt;.
+Using their API might take a second to learn but it saves time not worrying about missing or corrupted files, limited
+server storage or parsing and displaying blobs.&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
+
+&lt;p&gt;So how do you use a third party service like S3? &lt;a href=&#34;https://github.com/berto/s3-image-upload-demo&#34;&gt;This demo&lt;/a&gt; has a
+great readme and walks through the process using node. The concepts should easily transfer to other languages or
+cloud providers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have the client grab the user image. e.g. using an input tag type upload.&lt;/li&gt;
+&lt;li&gt;Send a post request to the server. You might be able to send it to a third party straight from the client,
+but it&amp;rsquo;s best to handle it with a server.&lt;/li&gt;
+&lt;li&gt;Parse the image blob from the body. Look for a middleware to parse &lt;code&gt;multipart/form-data&lt;/code&gt; content type.&lt;/li&gt;
+&lt;li&gt;Post image to the third party using their API.&lt;/li&gt;
+&lt;li&gt;Grab image id or address to reference. I recommend using a uuid.&lt;/li&gt;
+&lt;li&gt;Store image id or address to your database to associate with the user.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;img/starcrafts_0.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introduction to Haskell</title>

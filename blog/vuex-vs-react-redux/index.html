@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-	<meta name="generator" content="Hugo 0.18.1" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <meta name="HandheldFriendly" content="True">
@@ -15,10 +14,10 @@
 <title>
 
 
-     Berto - Berto 
+     Berto - Vuex vs React Redux 
 
 </title>
-<link rel="canonical" href="https://berto.github.io/">
+<link rel="canonical" href="https://berto.github.io/blog/vuex-vs-react-redux/">
 
 
 
@@ -39,8 +38,6 @@
 
 
 
-  <link href="https://berto.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Berto" />
-
 
 
 <script src="https://cdn.rawgit.com/berto/fun-logger/master/fun-logger-1.0.0.js" type="text/javascript"></script>
@@ -51,7 +48,7 @@
 <body lang="en">
 
 
-<section class="header header-home"> 
+<section class="header"> 
 
     <div class="container">
         <a href="https://berto.github.io"><img class="logo" src="https://berto.github.io/img/zergling.png" /></a>
@@ -129,79 +126,74 @@
     </div>
 </section>
 
-<section class="main">
+
+<section class="main post non-narrow zero-top-spacing">
     <div class="container">
         <div class="content">
-            
-                <div class="markdown">
-                <p>That above is a zergling&hellip; but don&rsquo;t mind him, my blog and projects are far more interesting!</p>
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+
+    Vuex vs React Redux
+
+</div>
 
                 </div>
-            
+                <div class="meta">
+                    <div class="date" title="Sat May 27 2017 22:25:43 -0700">May 27, 2017</div>
+                    <div class="reading-time"><div class="middot"></div>1 minute read</div>
+                </div>
+            </div>
+            <div class="markdown">
+                <p><a href="https://github.com/vuejs/vuex">Vuex</a> introduced me to another way of implementing Flux.</p>
 
-            <ul>
-            
-                
-                
-                
-            
-                
-                
-                    <li class="groupby">May, 2017</li>
-                
-                
-                    <li class="post-item">
-    <span class="meta">May 27, 2017</span>
-    <a href="https://berto.github.io/blog/vuex-vs-react-redux/"><span>Vuex vs React Redux</span></a>
-</li>
+<p><a href="http://facebook.github.io/flux/">Flux</a> is an &ldquo;APPLICATION ARCHITECTURE FOR BUILDING USER INTERFACES&rdquo;. If you ever build a single
+page app with multiple routes and nested components, managing state is a nightmare.
+Flux makes it easier to manage and it makes sense. I&rsquo;ve used it in multiple react apps with <a href="http://redux.js.org/">Redux</a>,
+<a href="https://github.com/berto/peer-review">Peer Review</a> being my last one,
+and it&rsquo;s helpful. It takes a lot of work to set up and multiple files, but it makes sense in large applications.</p>
 
-                
-            
-                
-                
-                    <li class="groupby">Apr, 2017</li>
-                
-                
-                    <li class="post-item">
-    <span class="meta">Apr 15, 2017</span>
-    <a href="https://berto.github.io/blog/image-to-font/"><span>Image To Font</span></a>
-</li>
+<p>I found the way <a href="https://vuejs.org/">Vue.js</a> implements Flux to make more sense. I recently gave a talk at
+the Vue meetup about setting up Vuex from scratch (video below). This talk highlights the difference in jargon
+and flow of communication.</p>
 
-                
-            
-                
-                
-                    <li class="groupby">Mar, 2017</li>
-                
-                
-                    <li class="post-item">
-    <span class="meta">Mar 23, 2017</span>
-    <a href="https://berto.github.io/blog/how-to-store-user-images/"><span>How To Store User Images</span></a>
-</li>
+<p>The biggest difference is that Vuex out of the box handles asynchronous events and
+the way to change state is with Mutations, which, as the name suggests, mutates the state instead of having
+the state immutable and replacing it with Reducers. Personally this is easier to reason about and is what
+you want to do anyways.</p>
 
-                
-            
-                
-                
-                    <li class="groupby">Feb, 2017</li>
-                
-                
-                    <li class="post-item">
-    <span class="meta">Feb 2, 2017</span>
-    <a href="https://berto.github.io/blog/introduction-to-haskell/"><span>Introduction to Haskell</span></a>
-</li>
+<p><a href="https://github.com/berto/vuex-demo">Code</a> and <a href="https://slides.com/robertoortega/vuex/live#/">Slides</a></p>
 
-                
-            
-            </ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I936jW7QbjM" frameborder="0" allowfullscreen></iframe>
+  
 
-            
-            
-                <a href="./blog/" class="see-more">See more ...</a>
-            
+<p><img src="img/starcrafts_2.png" alt="gopher" /></p>
+
+                <br>
+                <p><a href="blog">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'BertoBlog';
+    var disqus_identifier = 'https:\/\/berto.github.io\/blog\/vuex-vs-react-redux\/';
+    var disqus_title = 'Vuex vs React Redux';
+    var disqus_url = 'https:\/\/berto.github.io\/blog\/vuex-vs-react-redux\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
         </div>
     </div>
 </section>
+
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
   
@@ -216,5 +208,4 @@
 
 </body>
 </html>
-
 
