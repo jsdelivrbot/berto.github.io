@@ -28,3 +28,42 @@ console.party('Welcome to my console!!');
 console.set({size: '1em', style: 'pink'});
 console.print('Nothing but beautiful text');
 console.log('https://github.com/berto/fun-logger');
+
+// ZERGLING
+
+const eyes = document.querySelector('#eyes')
+const tongue = document.querySelector('#tongue')
+const wings = document.querySelector('#wings')
+const rerun = document.querySelector('#rerun')
+
+animate()
+rerun.addEventListener('click', animate)
+
+function animate() {
+  blink(200)
+  shake()
+  pant()
+}
+
+function blink(milli) {
+  eyes.style.display = 'none'
+  setTimeout(function() {
+    eyes.style.display = ''
+  }, milli)
+}
+
+function shake() {
+  wings.style.transformOrigin = 'bottom right'
+  wings.style.animation = 'shake 1s'
+  setTimeout(function() {
+    wings.style.transformOrigin = ''
+    wings.style.animation = ''
+  }, 1000)
+}
+
+function pant() {
+  tongue.style.animation = 'pant .7s'
+  setTimeout(function() {
+    tongue.style.animation = ''
+  }, 1000)
+}

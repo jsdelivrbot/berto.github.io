@@ -3,6 +3,68 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+/* ZERGLING */
+#zergling:hover #wings {
+  animation: shake 0.82s;
+  transform-origin: bottom right;
+}
+
+#zergling:hover #eyes {
+  animation: blink 1s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pant {
+  10%, 25% {
+    transform: translate(.1em, .1em)
+  }
+  25%, 50% {
+    transform: translate(-.1em, -.1em)
+  }
+  50%, 75% {
+    transform: translate(.1em, .1em)
+  }
+  75%, 80% {
+    transform: translate(-.05em, -.05em)
+  }
+}
+
+@keyframes shake {
+  10%, 80% {
+    transform: rotate(5deg);
+  }
+  
+  20%, 80% {
+    transform: rotate(5deg);
+  }
+
+  30%, 50%, 70% {
+    transform: rotate(-10deg);
+  }
+
+  40%, 60% {
+    transform: rotate(5deg);
+  }
+}
+
+#rerun {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+}
+
 @font-face {
   font-family: 'Nexa Bold';
   src: url('../fonts/Nexa Bold.otf');
@@ -187,6 +249,7 @@ section.header .container > a:first-child {
 }
 section.header .container .logo {
   max-width: 100px;
+  margin-right: 1em;
 }
 section.header .name {
   padding-top: 20px;
