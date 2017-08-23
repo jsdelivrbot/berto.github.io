@@ -34,10 +34,8 @@ console.log('https://github.com/berto/fun-logger');
 const eyes = document.querySelector('#eyes')
 const tongue = document.querySelector('#tongue')
 const wings = document.querySelector('#wings')
-const rerun = document.querySelector('#rerun')
 
 animate()
-rerun.addEventListener('click', animate)
 
 function animate() {
   blink(200)
