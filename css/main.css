@@ -59,12 +59,6 @@
   }
 }
 
-#rerun {
-  position: fixed;
-  right: 1em;
-  top: 1em;
-}
-
 @font-face {
   font-family: 'Nexa Bold';
   src: url('../fonts/Nexa Bold.otf');
