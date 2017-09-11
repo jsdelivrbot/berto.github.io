@@ -4,6 +4,61 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:500);
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+html {
+  height: 100%;
+}
+
+/* BACKGROUND */
+
+@-webkit-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-moz-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-o-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@-ms-keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes scroll{
+  100%{
+    background-position:0px -3000px;
+  }
+}
+
+.overlay {
+  background-image: url('../img/background.svg'); 
+  background-repeat: repeat;
+  -webkit-animation: 100s scroll infinite linear;
+  -moz-animation: 100s scroll infinite linear;
+  -o-animation: 100s scroll infinite linear;
+  -ms-animation: 100s scroll infinite linear;
+  animation: 100s scroll infinite linear;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 5s;
+}
+
 /* ZERGLING */
 #zergling:hover #wings {
   animation: shake 0.82s;
@@ -125,7 +180,9 @@ body {
   color: #111111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
+  position: relative;                 
 }
+
 @media (min-width: 600px) {
   body {
     -webkit-justify-content: center;
