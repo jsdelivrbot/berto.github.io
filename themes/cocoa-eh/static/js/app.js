@@ -11,6 +11,13 @@ const burst = new mojs.Burst({
   }
 })
 
+
+
+if (location.pathname === '/' || location.pathname === '/about/') {
+  const overlay = document.querySelector('.overlay')
+  overlay.style.opacity = .05
+}
+
 document.addEventListener( 'click' , (e) => {
   let isA = e.target.localName === 'a'
   let hasParent = e.target.parentNode.localName === 'a'
