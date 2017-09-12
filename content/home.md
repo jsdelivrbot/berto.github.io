@@ -3,4 +3,4 @@ date = "2017-01-31T15:58:19-07:00"
 title = "Home"
 +++
 
-That above is a zergling... but don't mind him, my blog and projects are far more interesting!
+I'm a developer, teacher, and learner. Here you will find a programming road map of my projects and blogs. Enjoy.
