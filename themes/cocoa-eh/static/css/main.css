@@ -8,6 +8,19 @@ html {
   height: 100%;
 }
 
+/* DARK THEME */
+
+.theme {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  font-size: 150%;
+}
+
+.theme:hover {
+  cursor: pointer;
+}
+
 /* BACKGROUND */
 
 @-webkit-keyframes scroll{
