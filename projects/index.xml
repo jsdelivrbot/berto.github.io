@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Berto</title>
-    <link>https://berto.github.io/projects/index.xml</link>
+    <link>https://berto.github.io/projects/</link>
     <description>Recent content in Projects on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 27 Jul 2017 14:55:03 -0700</lastBuildDate>
-    <atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://berto.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Vango Twitter Bot</title>
@@ -15,16 +17,9 @@
       <pubDate>Thu, 27 Jul 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/vango-twitter-bot/</guid>
-      <description>&lt;p&gt;Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles
-and post them on Twitter. The program can also generate hexagon-tiled images.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/hexagon.png&#34; alt=&#34;vango&#34; /&gt;
-&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/alarak-hexagons.jpg&#34; alt=&#34;vango&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/vango&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles and post them on Twitter. The program can also generate hexagon-tiled images.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -33,15 +28,9 @@ and post them on Twitter. The program can also generate hexagon-tiled images.&lt
       <pubDate>Thu, 11 May 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/fun-logger/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/fun-logger/master/assets/methods.png&#34; alt=&#34;funlog&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or
-check out the readme for more information and usage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/fun-logger&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or check out the readme for more information and usage.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -50,14 +39,9 @@ check out the readme for more information and usage.&lt;/p&gt;
       <pubDate>Fri, 05 May 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/gorbit/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/gorbit.png&#34; alt=&#34;gorbit&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/gorbit&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -66,21 +50,10 @@ check out the readme for more information and usage.&lt;/p&gt;
       <pubDate>Mon, 24 Apr 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/peer-review/</guid>
-      <description>&lt;p&gt;Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors.
-You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted,
-the app display the results grouped by students.&lt;/p&gt;
-
-&lt;p&gt;The app is build with React/Redux and TypeScript.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/peer-review.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review1.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review2.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review3.png&#34; alt=&#34;peer&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/peer-review&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors. You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted, the app display the results grouped by students.
+The app is build with React/Redux and TypeScript.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -89,8 +62,7 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Tue, 31 Jan 2017 15:53:28 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/projects/</guid>
-      <description>&lt;p&gt;True developers never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my &lt;a href=&#34;https://github.com/berto&#34;&gt;Github profile&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>True developers never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my Github profile.</description>
     </item>
     
     <item>
@@ -99,14 +71,9 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Mon, 30 Jan 2017 20:07:51 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/haskell-cli-timer/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/timer.gif&#34; alt=&#34;timer&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple CLI timer. Test-driven and written in Haskell.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/terminal-countdown-timer&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Simple CLI timer. Test-driven and written in Haskell.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -115,14 +82,9 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Tue, 29 Nov 2016 14:43:35 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/go-cli-flashcards/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/flashcards.png&#34; alt=&#34;flashcards&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/flashcards&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -131,14 +93,9 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Sat, 12 Nov 2016 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/udraw.png&#34; alt=&#34;udraw&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I call it udraw. Basically it takes a unicode file and displays it in the terminal.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/udraw&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>I call it udraw. Basically it takes a unicode file and displays it in the terminal.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -147,16 +104,10 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Wed, 28 Sep 2016 15:07:05 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/time-lapse.gif&#34; alt=&#34;time-lapse&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://s3-time-lapse.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/time-lapse&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -165,14 +116,9 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Tue, 02 Aug 2016 15:14:38 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/react-puzzle-game/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/donuts.png&#34; alt=&#34;donuts&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Built with React/Redux. The point of the game is to leave your opponent with the last donut. &lt;a href=&#34;https://dont-take-the-last-donut.herokuapp.com/&#34;&gt;Give it a shot!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/donuts&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Built with React/Redux. The point of the game is to leave your opponent with the last donut. Give it a shot!
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -181,19 +127,11 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Fri, 08 Apr 2016 15:21:27 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/game-theory-with-waffles/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/waffles.png&#34; alt=&#34;waffles&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I find &lt;a href=&#34;https://en.wikipedia.org/wiki/Game_theory&#34;&gt;Game Theory&lt;/a&gt; fascinating. I also like waffles.
-I decided to create a web game to challenge two people into a zero-sum game situation.&lt;/p&gt;
-
-&lt;p&gt;Built with websockets and Go.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://waffles-game-theory.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/waffles-game-theory&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>I find Game Theory fascinating. I also like waffles. I decided to create a web game to challenge two people into a zero-sum game situation.
+Built with websockets and Go.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -202,12 +140,9 @@ I decided to create a web game to challenge two people into a zero-sum game situ
       <pubDate>Sun, 21 Feb 2016 15:56:13 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/java-gradle-generator/</guid>
-      <description>&lt;p&gt;Basic generator for a Gradle Java application using Yeoman.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/yo-java-gradle&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Basic generator for a Gradle Java application using Yeoman.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -216,16 +151,10 @@ I decided to create a web game to challenge two people into a zero-sum game situ
       <pubDate>Sun, 22 Nov 2015 15:27:29 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/go-sudoku-solver/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/sugoku.png&#34; alt=&#34;sugoku&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Sudoku web app: solves, generates, grades, and validates sudoku puzzles.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sugoku.herokuapp.com/&#34;&gt;Heroku Url&lt;/a&gt;. Takes a second.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/sugoku&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -234,14 +163,7 @@ I decided to create a web game to challenge two people into a zero-sum game situ
       <pubDate>Wed, 07 Oct 2015 16:00:11 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/previous-work/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://war.bertoort.com/&#34;&gt;War&lt;/a&gt;, the card game simulator&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pure-fjord-4882.herokuapp.com/&#34;&gt;Squirrel&lt;/a&gt;, a 2D JavaScript game (takes a second to load)&lt;/li&gt;
-&lt;li&gt;Web &lt;a href=&#34;http://terminal.bertoort.com&#34;&gt;terminal&lt;/a&gt; simulator&lt;/li&gt;
-&lt;li&gt;Old &lt;a href=&#34;http://bertoort.com&#34;&gt;personal site&lt;/a&gt; build with Angular&lt;/li&gt;
-&lt;li&gt;And &lt;a href=&#34;https://github.com/berto&#34;&gt;more&amp;hellip;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> War, the card game simulator Squirrel, a 2D JavaScript game (takes a second to load) Web terminal simulator Old personal site build with Angular And more&amp;hellip;  </description>
     </item>
     
   </channel>

@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Berto</title>
-    <link>https://berto.github.io/index.xml</link>
+    <link>https://berto.github.io/</link>
     <description>Recent content on Berto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 19 Aug 2017 20:08:23 -0700</lastBuildDate>
-    <atom:link href="https://berto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://berto.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Freelance Web Development</title>
@@ -15,99 +17,8 @@
       <pubDate>Sat, 19 Aug 2017 20:08:23 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/freelance-web-development/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#my-work&#34;&gt;My Work&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#how-to-freelance&#34;&gt;How to Freelance&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#setting-expectations&#34;&gt;Setting Expectations&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#templates-and-generators&#34;&gt;Templates and Generators&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/freelance-web-development/#hand-off&#34;&gt;Hand Off&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;my-work&#34;&gt;My Work&lt;/h2&gt;
-
-&lt;p&gt;In my career, I&amp;rsquo;ve done some freelance work:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://leviandangie.bertoort.com/&#34;&gt;Wedding Site&lt;/a&gt; - &lt;a href=&#34;https://bitbucket.org/bertoort/front-end-levi-and-angie&#34;&gt;Ember Code&lt;/a&gt; and &lt;a href=&#34;https://bitbucket.org/bertoort/back-end-levi-and-angie&#34;&gt;Rails Code&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://numinousbodywork.com/&#34;&gt;Business Site&lt;/a&gt; - &lt;a href=&#34;https://github.com/berto/numinousbodywork&#34;&gt;Code&lt;/a&gt; using a static site generator (Hugo)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://rjtravels.world/&#34;&gt;Travel Blog&lt;/a&gt; - &lt;a href=&#34;https://github.com/berto/rj-travels&#34;&gt;Rails Code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;All which have been done more as favors with little compensation. It was mostly to explore the idea of freelancing
-and what it entails for a web developer.&lt;/p&gt;
-
-&lt;p&gt;Should you do it? If you&amp;rsquo;re a web developer and you&amp;rsquo;re considering doing freelancing, I can&amp;rsquo;t tell you whether it&amp;rsquo;s
-a good idea or not, but I can share my experience and advice on it.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-freelance&#34;&gt;How to Freelance&lt;/h2&gt;
-
-&lt;p&gt;To be a freelancer you need to be a business man. Regardless if you&amp;rsquo;re building a site for a friend or building sites for
-money, they are the client and you are the seller.&lt;/p&gt;
-
-&lt;p&gt;The benefit of working with a friend is that you don&amp;rsquo;t have to worry about legalities. As a personal business, there is
-always the chance that someone can sue you or not pay you. Make sure to have a lawyer or look online for legal
-contracts that can protect you.&lt;/p&gt;
-
-&lt;p&gt;Personally, I don&amp;rsquo;t have a freelancing business so I can&amp;rsquo;t talk much about that. I can talk about working with a client,
-figuring out due dates, requirements, and managing expectations.&lt;/p&gt;
-
-&lt;h2 id=&#34;setting-expectations&#34;&gt;Setting Expectations&lt;/h2&gt;
-
-&lt;p&gt;Before building anything, it is crucial talk about expectations with your client. I inquire about:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What kind of website do you want?&lt;/li&gt;
-&lt;li&gt;Do you have any design ideas or examples?&lt;/li&gt;
-&lt;li&gt;When do you need the site to be done by?&lt;/li&gt;
-&lt;li&gt;What content do you have available (images, writings, etc.)?&lt;/li&gt;
-&lt;li&gt;How often do you foresee yourself wanting to make changes?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The goal is to learn what your client wants and how much work it&amp;rsquo;s going to take from you. If they have the design all
-done with images available, you don&amp;rsquo;t have to do mockups. If they want dynamic content, you&amp;rsquo;ll need a server with back
-end configurations. If they want to make constant changes, you will also need to build their interface to add content.&lt;/p&gt;
-
-&lt;p&gt;Ask tons of questions. After getting a good sense of what they need, you can be more honest about meeting their deadline
-and how much it&amp;rsquo;s going to cost. I encourage charging per hour, not per project. Clients have a tendency to change their
-mind and add new features.&lt;/p&gt;
-
-&lt;p&gt;Be Agile about it too. Don&amp;rsquo;t tell them it&amp;rsquo;ll be done by a certain time, give them a rough estimate and work on iterations.
-Tell them you&amp;rsquo;ll work on a few features and check back weekly to show your progress. At each meeting, reevaluate the plan
-and tell them what you&amp;rsquo;ll be working on for the week.&lt;/p&gt;
-
-&lt;h2 id=&#34;templates-and-generators&#34;&gt;Templates and Generators&lt;/h2&gt;
-
-&lt;p&gt;Now that you are clear with what you&amp;rsquo;re building, it&amp;rsquo;s time to start coding.&lt;/p&gt;
-
-&lt;p&gt;Content Management Systems, such as Wordpress or Drupal, are ideal for freelancers. They have great templates so
-you don&amp;rsquo;t have to build everything from scratch, they have great support for deploying and hosting, and most importantly,
-excellent GUI for your clients to manage their site after you build it. The down side is that you have to learn a lot on
-how to use a CMS which takes a lot of work.&lt;/p&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t want to learn how to use a CMS, you can do it my way and look into &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;static site generators&lt;/a&gt;
-or frameworks like Ember or Rails that make web development easier.&lt;/p&gt;
-
-&lt;p&gt;A lot of the work goes into front-end development. I like to use free templates from the web like &lt;a href=&#34;https://html5up.net/&#34;&gt;HTML5 UP&lt;/a&gt;
-whenever possible.&lt;/p&gt;
-
-&lt;h2 id=&#34;hand-off&#34;&gt;Hand Off&lt;/h2&gt;
-
-&lt;p&gt;Something to keep in mind from the beginning is the work required after the site is built. What if your client wants
-to add a new feature or there is a little bug?&lt;/p&gt;
-
-&lt;p&gt;The easiest way is to hand off everything to the client and they can hire you again if they want more work to be done
-to the site. I create an email account for the user, purchase domains, hosting services, and other services with that
-account and have the client own it. Any hosting or set up fees I have the client pay themselves or reimburse me.&lt;/p&gt;
-
-&lt;p&gt;I like to use AWS services for price and convenience: &lt;a href=&#34;https://aws.amazon.com/ec2/&#34;&gt;EC2&lt;/a&gt; for web hosting and &lt;a href=&#34;https://aws.amazon.com/s3/&#34;&gt;S3&lt;/a&gt; for static hosting or images.&lt;/p&gt;
-
-&lt;p&gt;You want to set it up so any developer can pick up from where you left off. Be organized and write necessary documentation.
-It&amp;rsquo;s good practice and helpful even for you when you go back to the project after a long period of time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/starcrafts_3.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>My Work How to Freelance Setting Expectations Templates and Generators Hand Off  My Work In my career, I&amp;rsquo;ve done some freelance work:
+ Wedding Site - Ember Code and Rails Code Business Site - Code using a static site generator (Hugo) Travel Blog - Rails Code  All which have been done more as favors with little compensation. It was mostly to explore the idea of freelancing and what it entails for a web developer.</description>
     </item>
     
     <item>
@@ -116,16 +27,9 @@ It&amp;rsquo;s good practice and helpful even for you when you go back to the pr
       <pubDate>Thu, 27 Jul 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/vango-twitter-bot/</guid>
-      <description>&lt;p&gt;Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles
-and post them on Twitter. The program can also generate hexagon-tiled images.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/hexagon.png&#34; alt=&#34;vango&#34; /&gt;
-&lt;img src=&#34;https://rawgit.com/berto/vango/master/examples/alarak-hexagons.jpg&#34; alt=&#34;vango&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/vango&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Named after the artist Vincent Van Gogh, Vango&amp;rsquo;s original purpose is to generate colorful hexagon tiles and post them on Twitter. The program can also generate hexagon-tiled images.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -134,30 +38,8 @@ and post them on Twitter. The program can also generate hexagon-tiled images.&lt
       <pubDate>Sat, 27 May 2017 22:25:43 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/vuex-vs-react-redux/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/vuejs/vuex&#34;&gt;Vuex&lt;/a&gt; introduced me to another way of implementing Flux.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://facebook.github.io/flux/&#34;&gt;Flux&lt;/a&gt; is an &amp;ldquo;APPLICATION ARCHITECTURE FOR BUILDING USER INTERFACES&amp;rdquo;. If you ever build a single
-page app with multiple routes and nested components, managing state is a nightmare.
-Flux makes it easier to manage and it makes sense. I&amp;rsquo;ve used it in multiple react apps with &lt;a href=&#34;http://redux.js.org/&#34;&gt;Redux&lt;/a&gt;,
-&lt;a href=&#34;https://github.com/berto/peer-review&#34;&gt;Peer Review&lt;/a&gt; being my last one,
-and it&amp;rsquo;s helpful. It takes a lot of work to set up and multiple files, but it makes sense in large applications.&lt;/p&gt;
-
-&lt;p&gt;I found the way &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue.js&lt;/a&gt; implements Flux to make more sense. I recently gave a talk at
-the Vue meetup about setting up Vuex from scratch (video below). This talk highlights the difference in jargon
-and flow of communication.&lt;/p&gt;
-
-&lt;p&gt;The biggest difference is that Vuex out of the box handles asynchronous events and
-the way to change state is with Mutations, which, as the name suggests, mutates the state instead of having
-the state immutable and replacing it with Reducers. Personally this is easier to reason about and is what
-you want to do anyways.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/vuex-demo&#34;&gt;Code&lt;/a&gt; and &lt;a href=&#34;https://slides.com/robertoortega/vuex/live#/&#34;&gt;Slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/I936jW7QbjM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-  
-
-&lt;p&gt;&lt;img src=&#34;img/starcrafts_2.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Vuex introduced me to another way of implementing Flux.
+Flux is an &amp;ldquo;APPLICATION ARCHITECTURE FOR BUILDING USER INTERFACES&amp;rdquo;. If you ever build a single page app with multiple routes and nested components, managing state is a nightmare. Flux makes it easier to manage and it makes sense. I&amp;rsquo;ve used it in multiple react apps with Redux, Peer Review being my last one, and it&amp;rsquo;s helpful. It takes a lot of work to set up and multiple files, but it makes sense in large applications.</description>
     </item>
     
     <item>
@@ -166,15 +48,9 @@ you want to do anyways.&lt;/p&gt;
       <pubDate>Thu, 11 May 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/fun-logger/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://rawgit.com/berto/fun-logger/master/assets/methods.png&#34; alt=&#34;funlog&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or
-check out the readme for more information and usage.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/fun-logger&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Fun project styling JavaScript&amp;rsquo;s print functionality. Open up the dev tools to see an example or check out the readme for more information and usage.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -183,14 +59,9 @@ check out the readme for more information and usage.&lt;/p&gt;
       <pubDate>Fri, 05 May 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/gorbit/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/gorbit.png&#34; alt=&#34;gorbit&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/gorbit&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Short for Go and Orbit, it&amp;rsquo;s a game built in unity in honor of GopherCon 2017.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -199,21 +70,10 @@ check out the readme for more information and usage.&lt;/p&gt;
       <pubDate>Mon, 24 Apr 2017 14:55:03 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/peer-review/</guid>
-      <description>&lt;p&gt;Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors.
-You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted,
-the app display the results grouped by students.&lt;/p&gt;
-
-&lt;p&gt;The app is build with React/Redux and TypeScript.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/peer-review.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review1.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review2.png&#34; alt=&#34;peer&#34; /&gt;
-&lt;img src=&#34;https://berto.github.io/img/projects/peer-review3.png&#34; alt=&#34;peer&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/peer-review&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ideal for group feedback. Peer Review is hooked up to Galvanize&amp;rsquo;s Login to be managed by instructors. You can import student cohorts and create project feedback forms. After the survey&amp;rsquo;s are submitted, the app display the results grouped by students.
+The app is build with React/Redux and TypeScript.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -222,100 +82,7 @@ the app display the results grouped by students.&lt;/p&gt;
       <pubDate>Sat, 15 Apr 2017 22:25:43 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/image-to-font/</guid>
-      <description>
-
-&lt;style&gt;
-  @font-face {
-    font-family: &#39;Logo&#39;;
-    font-style: normal;
-    src: url(&#39;https://rawgit.com/berto/numinousbodywork/master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf&#39;);
-  }
-  .icon-logo {
-    line-height: 1em;
-    font-size: 500%;
-    font-family: &#34;logo&#34;;
-    transition: color 1s;
-  }
-  .icon-logo:hover {
-    color: rebeccapurple;
-  }
-  .small {
-    font-size: 100%;
-  }
-&lt;/style&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#intro&#34;&gt;Intro&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#from-pixels-to-vectors&#34;&gt;From Pixels to Vectors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#from-svg-to-font&#34;&gt;From SVG To Font&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/image-to-font/#include-with-css&#34;&gt;Include With CSS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-
-&lt;p&gt;Recently I ran into the challenge of turning an image that a client provided into an icon.
-In order to use it as an icon, I had to included as a font in the CSS.&lt;/p&gt;
-
-&lt;p&gt;This blog will walk through the steps and resources I used to make this font icon &lt;span class=&#34;icon-logo small&#34;&gt;&amp;#xe900;&lt;/span&gt; from a png.&lt;/p&gt;
-
-&lt;h3 id=&#34;icon&#34;&gt;Icon&lt;/h3&gt;
-
-&lt;p&gt;&lt;span class=&#34;icon-logo&#34;&gt;&amp;#xe900;&lt;/span&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;png&#34;&gt;PNG&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/berto/numinousbodywork/623b7a89/themes/hugo-future-imperfect/static/img/logo.png&#34; width=&#34;100&#34; height=&#34;100&#34;&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;from-pixels-to-vectors&#34;&gt;From Pixels To Vectors&lt;/h2&gt;
-
-&lt;p&gt;The first step is to turn the &lt;code&gt;png&lt;/code&gt; into &lt;code&gt;svg&lt;/code&gt;. Portable Network Graphics (PNG) is a raster graphics file format.
-Raster images are made out of pixels. For fonts, we want vectors. Vector images are mathematical calculations from
-one point to another that form lines and shapes. Scalable Vector Graphics (SVG) is an XML-based vector image format.&lt;/p&gt;
-
-&lt;p&gt;To turn the &lt;code&gt;png&lt;/code&gt; into &lt;code&gt;svg&lt;/code&gt; we need a vector graphics app. The industry standard is &lt;a href=&#34;http://www.adobe.com/products/illustrator.html&#34;&gt;Adobe Illustrator&lt;/a&gt;
-if you can affort it. I used the OSS &lt;a href=&#34;https://inkscape.org/en/&#34;&gt;Inkscape&lt;/a&gt;, which is awesome!&lt;/p&gt;
-
-&lt;p&gt;After uploading the image to the app, I followed &lt;a href=&#34;http://www.thenoncraftycrafter.com/2015/02/inkscape.html&#34;&gt;this tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;from-svg-to-font&#34;&gt;From SVG To Font&lt;/h2&gt;
-
-&lt;p&gt;Now that you have the &lt;code&gt;svg&lt;/code&gt; format of the image, we need to crate a font family. After little googling I found &lt;a href=&#34;https://icomoon.io/&#34;&gt;IcoMoon&lt;/a&gt;.
-It is a great app to make fonts out of &lt;code&gt;svg&lt;/code&gt;&amp;rsquo;s for free. If you use it correctly, it will generate multiple font file formats that include your icon:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;icomoon.eot&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icomoon.svg&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icomoon.ttf&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icomoon.woff&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;include-with-css&#34;&gt;Include with CSS&lt;/h2&gt;
-
-&lt;p&gt;The last step is to include the font into your website. First, create a font-face:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  @font-face {
-    font-family: &#39;Logo&#39;;
-    font-style: normal;
-    src: url(&#39;path/to/icomoon.ttf&#39;);
-  }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Apply font family rule&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;  .icon-logo {
-    font-family: &amp;quot;logo&amp;quot;;
-  }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Include into HTML. The HTML symbol for the icon is defined when you crate the font with IcoMoon.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;span class=&amp;quot;icon-logo&amp;quot;&amp;gt;&amp;amp;#xe900;&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/starcrafts_1.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>@font-face { font-family: &#39;Logo&#39;; font-style: normal; src: url(&#39;https://rawgit.com/berto/numinousbodywork/master/themes/hugo-future-imperfect/static/fonts/icomoon.ttf&#39;); } .icon-logo { line-height: 1em; font-size: 500%; font-family: &#34;logo&#34;; transition: color 1s; } .icon-logo:hover { color: rebeccapurple; } .small { font-size: 100%; }   Intro From Pixels to Vectors From SVG To Font Include With CSS  Intro Recently I ran into the challenge of turning an image that a client provided into an icon. In order to use it as an icon, I had to included as a font in the CSS.</description>
     </item>
     
     <item>
@@ -324,59 +91,8 @@ It is a great app to make fonts out of &lt;code&gt;svg&lt;/code&gt;&amp;rsquo;s 
       <pubDate>Thu, 23 Mar 2017 22:25:43 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/how-to-store-user-images/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#ways-of-storing-images&#34;&gt;Ways of Storing Images&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/how-to-store-user-images/#demo&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;You want your users to be able to upload images, profile pictures, receipts, and so on, but you are not sure where to
-save it or how to do it.&lt;/p&gt;
-
-&lt;p&gt;This is a short blog addressing this issue. I will talk about the different ways, but more importantly, link to a
-demo repo that walks through the process of uploading images using Amazon Services.&lt;/p&gt;
-
-&lt;h2 id=&#34;ways-of-storing-images&#34;&gt;Ways of storing images&lt;/h2&gt;
-
-&lt;p&gt;There are many ways to approach it:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;File System&lt;/li&gt;
-&lt;li&gt;DB (mysql, postgresql)&lt;/li&gt;
-&lt;li&gt;Third party (AWS, Cloudinary)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;First off, you need a client to grab the image and send it to the client. Then, the server can parse the image
-and store it. Storing it on your file system is a possibility but highly discouraged. It&amp;rsquo;s difficult to guarantee
-data consistency. The better way is using a database. The downside is memory space and managing images as blobs
-(Binary Large OBjectS).&lt;/p&gt;
-
-&lt;p&gt;I encourage using a third party such as &lt;a href=&#34;https://aws.amazon.com/s3/&#34;&gt;AWS S3&lt;/a&gt; or &lt;a href=&#34;http://cloudinary.com/&#34;&gt;Cloudinary&lt;/a&gt;.
-Using their API might take a second to learn but it saves time not worrying about missing or corrupted files, limited
-server storage or parsing and displaying blobs.&lt;/p&gt;
-
-&lt;h2 id=&#34;demo&#34;&gt;Demo&lt;/h2&gt;
-
-&lt;p&gt;So how do you use a third party service like S3? &lt;a href=&#34;https://github.com/berto/s3-image-upload-demo&#34;&gt;This demo&lt;/a&gt; has a
-great readme and walks through the process using node. The concepts should easily transfer to other languages or
-cloud providers:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Have the client grab the user image. e.g. using an input tag type upload.&lt;/li&gt;
-&lt;li&gt;Send a post request to the server. You might be able to send it to a third party straight from the client,
-but it&amp;rsquo;s best to handle it with a server.&lt;/li&gt;
-&lt;li&gt;Parse the image blob from the body. Look for a middleware to parse &lt;code&gt;multipart/form-data&lt;/code&gt; content type.&lt;/li&gt;
-&lt;li&gt;Post image to the third party using their API.&lt;/li&gt;
-&lt;li&gt;Grab image id or address to reference. I recommend using a uuid.&lt;/li&gt;
-&lt;li&gt;Store image id or address to your database to associate with the user.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;img/starcrafts_0.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Introduction Ways of Storing Images Demo  Introduction You want your users to be able to upload images, profile pictures, receipts, and so on, but you are not sure where to save it or how to do it.
+This is a short blog addressing this issue. I will talk about the different ways, but more importantly, link to a demo repo that walks through the process of uploading images using Amazon Services.</description>
     </item>
     
     <item>
@@ -385,158 +101,8 @@ but it&amp;rsquo;s best to handle it with a server.&lt;/li&gt;
       <pubDate>Thu, 02 Feb 2017 23:55:51 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/introduction-to-haskell/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/introduction-to-haskell/#getting-started&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/introduction-to-haskell/#development&#34;&gt;Development&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/introduction-to-haskell/#syntax&#34;&gt;Syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/introduction-to-haskell/#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I came to discover &lt;a href=&#34;https://www.haskell.org/&#34;&gt;Haskell&lt;/a&gt; is a wonderful programming language. The fact that it is statically typed and purely functional grabbed my attention (it is also described as a declarative language, regardless of how impossible it is to read).&lt;/p&gt;
-
-&lt;p&gt;This blog is an open record of how I came to create a simple &lt;a href=&#34;https://github.com/berto/terminal-countdown-timer&#34;&gt;CLI timer&lt;/a&gt; with Haskell and what I learned from it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/timer.gif&#34; alt=&#34;timer&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;getting-started&#34;&gt;GETTING STARTED&lt;/h2&gt;
-
-&lt;p&gt;Ridiculously painless. First, read as much as you can of &lt;a href=&#34;http://learnyouahaskell.com/&#34;&gt;Learn You A Haskell&lt;/a&gt;. It is the best programming book I&amp;rsquo;ve ever read.&lt;/p&gt;
-
-&lt;p&gt;When you&amp;rsquo;re ready to code, go &lt;a href=&#34;https://www.haskell.org/platform/&#34;&gt;here&lt;/a&gt; and download the latest version of the Haskell Platform.&lt;/p&gt;
-
-&lt;p&gt;On top of installing Haskell, it also gives you &lt;a href=&#34;https://www.haskell.org/ghc/&#34;&gt;GHC&lt;/a&gt; to compile the code. It comes with an interactive environment for the terminal. Type &lt;code&gt;ghci&lt;/code&gt; to play around.&lt;/p&gt;
-
-&lt;p&gt;Lastly, the platform comes with &lt;a href=&#34;https://www.haskell.org/cabal/&#34;&gt;Cabal&lt;/a&gt;. Cabal is &lt;a href=&#34;https://ivanmiljenovic.wordpress.com/2010/03/15/repeat-after-me-cabal-is-not-a-package-manager/&#34;&gt;not a package manager&lt;/a&gt;, even though it contains information about the packages. It is part of the ecosystem, along with &lt;a href=&#34;http://hackage.haskell.org/packages/hackage.html&#34;&gt;HaskellDB&lt;/a&gt; and cabal-install to manage your packages.&lt;/p&gt;
-
-&lt;p&gt;All and all, I used Cabal to get the libraries and packages that i needed (like a package manager). I also used &lt;a href=&#34;https://docs.haskellstack.org/en/stable/README/&#34;&gt;Stack&lt;/a&gt;. It is a wonderful program for developing Haskell apps. It scaffolds a beautiful app with tests. Install by running:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;curl -sSL https://get.haskellstack.org/ | sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then use it with the following commands:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;stack new my-project
-cd my-project
-stack setup
-stack build
-stack exec my-project-exe
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;development&#34;&gt;DEVELOPMENT&lt;/h2&gt;
-
-&lt;p&gt;Type &lt;code&gt;stack new my-project&lt;/code&gt; to get started. When you generate a new project, Stack gives you the following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.
-├── LICENSE
-├── Setup.hs
-├── app
-│   └── Main.hs
-├── my-project.cabal
-├── src
-│   └── Lib.hs
-├── stack.yaml
-└── test
-    └── Spec.hs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Like &lt;code&gt;Java&lt;/code&gt; and other compiled languages, the &lt;code&gt;main&lt;/code&gt; package contains the main function of the application. You will notice a &lt;code&gt;Lib&lt;/code&gt; package being imported in &lt;code&gt;Main.hs&lt;/code&gt;. This is an example of importing custom packages from the &lt;code&gt;src&lt;/code&gt; directory.
-You can create a package by creating a file in the &lt;code&gt;src&lt;/code&gt; directory and adding it to the &lt;code&gt;.cabal&lt;/code&gt; file&amp;rsquo;s &lt;code&gt;exposed-modules&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;I found myself editing the &lt;code&gt;*.cabal&lt;/code&gt; file quite often. This is where your project information lives and you specify the package imports.&lt;/p&gt;
-
-&lt;p&gt;For importing third party packages, install them using &lt;code&gt;cabal&lt;/code&gt; and then add them to the &lt;code&gt;build-depends&lt;/code&gt;. For example, I used &lt;code&gt;hspec&lt;/code&gt; for tests, so I ran &lt;code&gt;cabal install hspec&lt;/code&gt; and then added &lt;code&gt;hspec   == 2.*&lt;/code&gt; to the dependencies. Here you can find an example of my &lt;a href=&#34;https://github.com/berto/terminal-countdown-timer/blob/master/terminal-countdown-timer.cabal&#34;&gt;.cabal file&lt;/a&gt; and the &lt;a href=&#34;https://github.com/berto/terminal-countdown-timer/blob/master/test/Spec.hs&#34;&gt;tests&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To create your own packages, start by defining the module name, the functions to by exported surrounded by parenthesis, and the keyword &lt;code&gt;where&lt;/code&gt;. This is the example from the &lt;code&gt;Lib&lt;/code&gt; package:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;module Lib
-    ( someFunc
-    ) where
-
-someFunc :: IO ()
-someFunc = putStrLn &amp;quot;someFunc&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then, when the package is imported, all the exported functions will be available globally.&lt;/p&gt;
-
-&lt;p&gt;I only had a problem with certain packages being hidden by Cabal that Stack wasn&amp;rsquo;t able to access. If this ever happens, I worked around it by including a flag in the build command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;stack build --ghc-options=&amp;quot;-package [container-name]&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;syntax&#34;&gt;SYNTAX&lt;/h2&gt;
-
-&lt;p&gt;Again, I highly suggest reading &lt;a href=&#34;http://learnyouahaskell.com/&#34;&gt;Learn You A Haskell&lt;/a&gt; to explore the language. I do want to highlight a few areas that stood out to me:&lt;/p&gt;
-
-&lt;h4 id=&#34;optionally-statically-typed&#34;&gt;Optionally Statically Typed&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;lpad :: Int -&amp;gt; [Int] -&amp;gt; [Int]
-lpad m xs = replicate (m - length ys) 0 ++ ys
-    where ys = take m xs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the example above, the first line defining the function is &lt;code&gt;lpad :: Int -&amp;gt; [Int] -&amp;gt; [Int]&lt;/code&gt;. This is the syntax for declaring the input and output of the function, first the name, then the &lt;code&gt;::&lt;/code&gt; and then the parameters separated by &lt;code&gt;-&amp;gt;&lt;/code&gt;&amp;rsquo;s.
-The last type is the output. In this example, the function &lt;code&gt;lpad&lt;/code&gt; takes an integer and a list of integers and returns another list of integers.&lt;/p&gt;
-
-&lt;p&gt;This is completely optional though. It is considered good practice to give functions type declarations but it is not required. The compiler will do just fine without it. Read &lt;a href=&#34;http://learnyouahaskell.com/types-and-typeclasses&#34;&gt;this chapter&lt;/a&gt; for more information.&lt;/p&gt;
-
-&lt;h4 id=&#34;extensive-list-of-operators&#34;&gt;Extensive List of Operators&lt;/h4&gt;
-
-&lt;p&gt;Haskell, and other functional languages, are mathematical and full of operators. &lt;a href=&#34;http://www.imada.sdu.dk/~rolf/Edu/DM22/F06/haskell-operatorer.pdf&#34;&gt;Here&lt;/a&gt; is a list of them.&lt;/p&gt;
-
-&lt;p&gt;I find them unwelcoming when learning the language. They simplify the code to an extend that it looks beautiful but quite difficult to read. As a beginner, I found myself constantly looking up their definition.&lt;/p&gt;
-
-&lt;p&gt;My favorite ended up being the &lt;code&gt;$&lt;/code&gt; that is an abstraction of &lt;code&gt;()&lt;/code&gt;&amp;rsquo;s in the way of grouping the order of execution. &lt;code&gt;sum (1 * 8)&lt;/code&gt; is the same as &lt;code&gt;sum $ 1 * 8&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;the-importance-of-pattern-matching&#34;&gt;The Importance of Pattern Matching&lt;/h4&gt;
-
-&lt;p&gt;In the &lt;a href=&#34;http://learnyouahaskell.com/syntax-in-functions&#34;&gt;Syntax in Functions&lt;/a&gt; chapter, you can see Haskell&amp;rsquo;s ability to do pattern matching. There are so many ways to do &lt;code&gt;if&lt;/code&gt; statements.&lt;/p&gt;
-
-&lt;p&gt;You can define a function to behave differently depending on the input with standard &lt;code&gt;if&lt;/code&gt; statements, &lt;a href=&#34;https://wiki.haskell.org/Pattern_guard&#34;&gt;guards&lt;/a&gt;, or more interestingly, the way you define the function. Here is an example from the book:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sayMe :: (Integral a) =&amp;gt; a -&amp;gt; String  
-sayMe 1 = &amp;quot;One!&amp;quot;  
-sayMe 2 = &amp;quot;Two!&amp;quot;  
-sayMe 3 = &amp;quot;Three!&amp;quot;  
-sayMe 4 = &amp;quot;Four!&amp;quot;  
-sayMe 5 = &amp;quot;Five!&amp;quot;  
-sayMe x = &amp;quot;Not between 1 and 5&amp;quot; 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If the input is 1, the function will return &amp;ldquo;One!&amp;rdquo;, if it&amp;rsquo;s 2, &amp;ldquo;Two!, and so on. In the last case, it will handle any other input as a variable &lt;code&gt;x&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;flexible-inputs-and-outputs&#34;&gt;Flexible Inputs and Outputs&lt;/h4&gt;
-
-&lt;p&gt;In the code example above, you may have noticed the type &lt;code&gt;a&lt;/code&gt; in the function declaration. This is Haskell&amp;rsquo;s &lt;a href=&#34;https://wiki.haskell.org/Generics&#34;&gt;Generics&lt;/a&gt;. They are great for allowing flexible inputs and outputs in a function. That means that the function &lt;code&gt;sayMe&lt;/code&gt; could take any type of input.&lt;/p&gt;
-
-&lt;p&gt;Haskell also has a &lt;a href=&#34;https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Maybe.html&#34;&gt;Maybe&lt;/a&gt; and &lt;a href=&#34;https://hackage.haskell.org/package/base-4.9.1.0/docs/Data-Either.html&#34;&gt;Either&lt;/a&gt; type. This I found really interesting, where you define the possibility of the outcome. In the case of &lt;code&gt;Maybe&lt;/code&gt;, you get &lt;code&gt;Just&lt;/code&gt; the type you defined or &lt;code&gt;Nothing&lt;/code&gt; back.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;f::Int -&amp;gt; Maybe Int
-f 0 = Nothing
-f x = Just x
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;With &lt;code&gt;Either&lt;/code&gt;, you &lt;code&gt;Either&lt;/code&gt; get the &lt;code&gt;Right&lt;/code&gt; or the &lt;code&gt;Left&lt;/code&gt; type.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;f1 :: Int -&amp;gt; Either String Int
-f1 arg = if arg == 42
-             then Left &amp;quot;can&#39;t work with 42&amp;quot;
-             else Right (arg + 3)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;Maybe&lt;/code&gt; and &lt;code&gt;Either&lt;/code&gt; output flexibility is great for error handling.&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;CONCLUSION&lt;/h2&gt;
-
-&lt;p&gt;Haskell is a blast. I must admit, I made rookie mistakes of trying to define an accumulator variable at global scope and trying to change the nth number of a list. In functional programming, there is no state or mutations.&lt;/p&gt;
-
-&lt;p&gt;The way of thinking is different. More recursion, math, modularity, and simplicity. I like the process of composing my code, brick by brick. Refactoring and modification was a peaceful process.&lt;/p&gt;
-
-&lt;p&gt;I encourage all to give it a shot.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/gopher7.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Getting Started Development Syntax Conclusion  I came to discover Haskell is a wonderful programming language. The fact that it is statically typed and purely functional grabbed my attention (it is also described as a declarative language, regardless of how impossible it is to read).
+This blog is an open record of how I came to create a simple CLI timer with Haskell and what I learned from it.</description>
     </item>
     
     <item>
@@ -545,8 +111,7 @@ f1 arg = if arg == 42
       <pubDate>Tue, 31 Jan 2017 15:58:19 -0700</pubDate>
       
       <guid>https://berto.github.io/home/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a developer, teacher, and learner. Here you will find a programming road map of my projects and blogs. Enjoy.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m a developer, teacher, and learner. Here you will find a programming road map of my projects and blogs. Enjoy.</description>
     </item>
     
     <item>
@@ -555,8 +120,7 @@ f1 arg = if arg == 42
       <pubDate>Tue, 31 Jan 2017 15:53:28 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/projects/</guid>
-      <description>&lt;p&gt;True developers never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my &lt;a href=&#34;https://github.com/berto&#34;&gt;Github profile&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>True developers never stop learning. Below is a curated list of my personal projects outside of work. For more, check out my Github profile.</description>
     </item>
     
     <item>
@@ -565,14 +129,9 @@ f1 arg = if arg == 42
       <pubDate>Mon, 30 Jan 2017 20:07:51 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/haskell-cli-timer/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/timer.gif&#34; alt=&#34;timer&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Simple CLI timer. Test-driven and written in Haskell.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/terminal-countdown-timer&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Simple CLI timer. Test-driven and written in Haskell.
+Code Source
+Back to Projects</description>
     </item>
     
     <item>
@@ -581,12 +140,8 @@ f1 arg = if arg == 42
       <pubDate>Mon, 30 Jan 2017 20:07:34 -0700</pubDate>
       
       <guid>https://berto.github.io/about/</guid>
-      <description>&lt;p&gt;&lt;img class=&#34;round&#34; src=&#34;https://berto.github.io/img/me.jpg&#34; alt=&#34;me&#34; width=&#34;200&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Roberto Ortega is a web developer and instructor at Galvanize in the lovely city of Denver. He has a strong passion for sharing knowledge and being part of the community.&lt;/p&gt;
-
-&lt;p&gt;In his spare time, he enjoys coding in Go and JavaScript, climbing, biking, walking his dog, losing at chess and playing computer games.&lt;/p&gt;
-</description>
+      <description>Roberto Ortega is a web developer and instructor at Galvanize in the lovely city of Denver. He has a strong passion for sharing knowledge and being part of the community.
+In his spare time, he enjoys coding in Go and JavaScript, climbing, biking, walking his dog, losing at chess and playing computer games.</description>
     </item>
     
     <item>
@@ -595,128 +150,8 @@ f1 arg = if arg == 42
       <pubDate>Sat, 03 Dec 2016 23:46:44 -0700</pubDate>
       
       <guid>https://berto.github.io/blog/making-this-site-with-hugo/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#picking-a-theme&#34;&gt;Picking A Theme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#generating-an-app&#34;&gt;Generating An App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#customizing-the-app&#34;&gt;Customizing The App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#adding-content&#34;&gt;Adding Content&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#deployment&#34;&gt;Deployment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://berto.github.io/blog/making-this-site-with-hugo/#next-steps&#34;&gt;Next Steps&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;introduction&#34;&gt;INTRODUCTION&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://davidwalsh.name/introduction-static-site-generators&#34;&gt;Static site generators&lt;/a&gt; are fun.
-After building many sites, being able to scaffold one in minutes can be extremely convenient.
-If the goal is to write a blog, there is no need to wireframe, create the html layout, style, etc. Simply generate the app and start typing.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; is my favorite static site generator. If you know me, the fact that it is written in &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; already wins my heart.
-But it&amp;rsquo;s also ridiculously fast and easy to use. I will do my best to demonstrate such ease to get a site up and going in minutes.&lt;/p&gt;
-
-&lt;h2 id=&#34;installation&#34;&gt;INSTALLATION&lt;/h2&gt;
-
-&lt;p&gt;If you have a Mac and &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install hugo
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Otherwise, look into the &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release list.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;picking-a-theme&#34;&gt;PICKING A THEME&lt;/h2&gt;
-
-&lt;p&gt;Before entering any commands or coding a single character, I like to plan and know what I am making.&lt;/p&gt;
-
-&lt;p&gt;The first step for us is to pick out a theme. Here is an &lt;a href=&#34;http://themes.gohugo.io/&#34;&gt;extensive list&lt;/a&gt; that keeps growing everyday.&lt;/p&gt;
-
-&lt;p&gt;When picking a theme, make sure it has the layout and features you will need. Think of navigation bar, routes, and customization. Most themes provide a demo to play around with.&lt;/p&gt;
-
-&lt;p&gt;It is not a deal breaker if it doesn&amp;rsquo;t have everything you need. You can customize a theme fairly easy, but it is less work overall.&lt;/p&gt;
-
-&lt;p&gt;After picking a theme, make sure to find the &lt;code&gt;config.toml&lt;/code&gt; file, we will need this to configure our app.&lt;/p&gt;
-
-&lt;h2 id=&#34;generating-an-app&#34;&gt;GENERATING AN APP&lt;/h2&gt;
-
-&lt;p&gt;The &lt;code&gt;hugo&lt;/code&gt; commands are pretty straightforward. To start:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new site .
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will immediately create an app in the current directory, hence the &lt;code&gt;.&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, let&amp;rsquo;s add our theme. Go to the source code of the theme. &lt;a href=&#34;https://github.com/spf13/hugoThemes&#34;&gt;Here&lt;/a&gt; is the repo containing all the themes. For this site, I used the &lt;a href=&#34;https://github.com/fuegowolf/cocoa-eh-hugo-theme&#34;&gt;cocoa-eh&lt;/a&gt; theme.&lt;/p&gt;
-
-&lt;p&gt;To add it, simply clone it with &lt;code&gt;git&lt;/code&gt; into a themes directory. For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/fuegowolf/cocoa-eh-hugo-theme.git ./themes/cocoa-eh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Copy the &lt;code&gt;config.toml&lt;/code&gt; file provided by the theme to the root of the project. Sometimes it is easily provided by the theme, other times look into the demo source code. &lt;a href=&#34;https://github.com/fuegowolf/cocoa-eh-hugo-theme/blob/master/exampleSite/config.toml&#34;&gt;This&lt;/a&gt; is an example of one.&lt;/p&gt;
-
-&lt;p&gt;Customize it with your information.&lt;/p&gt;
-
-&lt;p&gt;When that&amp;rsquo;s done, serve the application with the new theme&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo server -D
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The new site should be up and running on &lt;code&gt;localhost:1313&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;customizing-the-app&#34;&gt;CUSTOMIZING THE APP&lt;/h2&gt;
-
-&lt;p&gt;As I mentioned before, customizing a &lt;code&gt;hugo&lt;/code&gt; app is fairly easy. Inside the theme directory, there is &lt;code&gt;layouts&lt;/code&gt; and a &lt;code&gt;static&lt;/code&gt; directory.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code&gt;static&lt;/code&gt; directory is where you can add any assets, &lt;code&gt;css&lt;/code&gt;, or &lt;code&gt;js&lt;/code&gt; files.&lt;/p&gt;
-
-&lt;p&gt;Link to them in the &lt;code&gt;layouts&lt;/code&gt; directory. Inside the &lt;code&gt;partials&lt;/code&gt;, you&amp;rsquo;ll find the header and footer to add any scripts.&lt;/p&gt;
-
-&lt;p&gt;The one unfamiliar syntax you might find is the &amp;ldquo;Actions&amp;rdquo; surrounded by &lt;code&gt;{{&lt;/code&gt; and &lt;code&gt;}}&lt;/code&gt;. This is &lt;a href=&#34;https://golang.org/pkg/text/template/&#34;&gt;Go&amp;rsquo;s Template&lt;/a&gt; syntax, very similar to &lt;a href=&#34;http://handlebarsjs.com/&#34;&gt;Handlebars&lt;/a&gt;. The &amp;ldquo;Actions&amp;rdquo; are basically arguments or pipelines to add value and logic to the template.&lt;/p&gt;
-
-&lt;p&gt;In our case, we can use it to link to our files with the correct path. There are many variables available, the one we will use is &lt;code&gt;{{ .Site.BaseURL }}&lt;/code&gt;, which as you might have guessed, represents your app URL defined in the &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;E.g.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;{{ .Site.BaseURL }}/js/app.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;adding-content&#34;&gt;ADDING CONTENT&lt;/h2&gt;
-
-&lt;p&gt;Depending on the type of site, we will want to add some personal content. Inside the project, there is a &lt;code&gt;contents&lt;/code&gt; directory. This is where the markdown files live and are parsed into html from.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;Hugo&lt;/code&gt; themes will usually specify what files it is looking for. Some common ones are &lt;code&gt;about.md&lt;/code&gt;, &lt;code&gt;blog/&lt;/code&gt;, and &lt;code&gt;projects/&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;We can create these files manually, but the preferred method is to generate them with &lt;code&gt;hugo&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new blog/this-is-a-new-blog.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo new about.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;deployment&#34;&gt;DEPLOYMENT&lt;/h2&gt;
-
-&lt;p&gt;So far we&amp;rsquo;ve been running a &lt;code&gt;hugo&lt;/code&gt; server to edit our new application. To generate the static files with our theme, run:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;hugo -t [theme-name]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it! The &lt;code&gt;public&lt;/code&gt; directory will contain our new and wonderful application. You can deploy it to any static site host. &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; is my host of choice. There is a nice tutorial &lt;a href=&#34;https://gohugo.io/tutorials/github-pages-blog/&#34;&gt;here&lt;/a&gt; to create a &lt;code&gt;deploy.sh&lt;/code&gt; for easy deployment.&lt;/p&gt;
-
-&lt;h2 id=&#34;next-steps&#34;&gt;NEXT STEPS&lt;/h2&gt;
-
-&lt;p&gt;Checkout &lt;a href=&#34;https://github.com/berto/berto.github.io&#34;&gt;this site&amp;rsquo;s repo&lt;/a&gt; for more code examples.&lt;/p&gt;
-
-&lt;p&gt;If you find yourself customizing a lot of your theme, I highly encourage you to &lt;a href=&#34;https://gohugo.io/themes/creation/&#34;&gt;create your own hugo theme&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Also, feel free to checkout &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;other static site generators&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/gopher6.png&#34; alt=&#34;gopher&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Introduction Installation Picking A Theme Generating An App Customizing The App Adding Content Deployment Next Steps  INTRODUCTION Static site generators are fun. After building many sites, being able to scaffold one in minutes can be extremely convenient. If the goal is to write a blog, there is no need to wireframe, create the html layout, style, etc. Simply generate the app and start typing.
+Hugo is my favorite static site generator.</description>
     </item>
     
     <item>
@@ -725,14 +160,148 @@ But it&amp;rsquo;s also ridiculously fast and easy to use. I will do my best to 
       <pubDate>Tue, 29 Nov 2016 14:43:35 -0700</pubDate>
       
       <guid>https://berto.github.io/projects/go-cli-flashcards/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://berto.github.io/img/projects/flashcards.png&#34; alt=&#34;flashcards&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/berto/flashcards&#34;&gt;Code Source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://berto.github.io/projects&#34;&gt;Back to Projects&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Having a tough time keeping up with all the new lingo? use my terminal app to help you study them.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>CLI Image to Unicode Display Tool</title>
+      <link>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</link>
+      <pubDate>Sat, 12 Nov 2016 14:55:03 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/cli-image-to-unicode-display-tool/</guid>
+      <description>I call it udraw. Basically it takes a unicode file and displays it in the terminal.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Building a Video Recording App with AWS S3 and a Raspberry Pi</title>
+      <link>https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</link>
+      <pubDate>Sat, 15 Oct 2016 23:08:47 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/building-a-video-recording-app-with-aws-s3-and-a-raspberry-pi/</guid>
+      <description>App Design Baking the Pie Picture Scripts AWS S3 Bucket Streaming App  APP DESIGN As a personal project, I decided to attach a camera to a Raspberry Pi , upload the pictures to Amazon s3, and then build a website to loop through the pictures.
+After reading this blog, you should have a clear picture on how to build a basic IoT project. I will do my best to provide the resources and step-by-step instructions on how to do it yourself, from setting up a Pi to accessing images in S3 buckets.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi Time Lapse Camera</title>
+      <link>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</link>
+      <pubDate>Wed, 28 Sep 2016 15:07:05 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/raspberry-pi-time-lapse-camera/</guid>
+      <description>Fun little time-lapse project built using a Raspberry Pi and Amazon S3 services.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Using Docker for Web Development</title>
+      <link>https://berto.github.io/blog/using-docker-for-web-development/</link>
+      <pubDate>Sun, 18 Sep 2016 22:48:16 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/using-docker-for-web-development/</guid>
+      <description>All Aboard Building an App Dockerfil and Docker Compose Next Steps  ALL ABOARD THE HYPE TRAIN CONTAINERSHIP Docker is popular for its lightweight ease of deployment. Make a container with only the images you need and boom! the perfect running environment. There are many guides that will go into detail on how Docker works and how to use it. However, I haven’t seen many guides that break down the use of it for development… and Docker is a great tool for development.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Dotfiles Directory</title>
+      <link>https://berto.github.io/blog/creating-a-dotfiles-directory/</link>
+      <pubDate>Sat, 27 Aug 2016 22:40:54 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/creating-a-dotfiles-directory/</guid>
+      <description>Not too complicated but highly useful. The purpose of doing this is to save your system configurations and host them somewhere. I have my dotfiles on github to share with the public, store them in a safe place, and to easily transfer them to other environments like my ubuntu server.
+Start by creating a directory anywhere you want, inside your projects or $HOME directory. Then, copy all your dotfiles (.</description>
+    </item>
+    
+    <item>
+      <title>A Friendly Guide to Setting Up VIM</title>
+      <link>https://berto.github.io/blog/a-friendly-guide-to-setting-up-vim/</link>
+      <pubDate>Tue, 16 Aug 2016 22:25:43 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/a-friendly-guide-to-setting-up-vim/</guid>
+      <description>Why Vim? Previous Requirements Installation vimrc Personal Extras Next Steps  WHY VIM? This blog will walk you step by step on how to setup vim and make it your new favorite text editor. But why? you may ask. Vim seems like a long walk for a short dive. It’s difficult to understand, set up, and learn to navigate.
+I like shortcuts and simply think it&amp;rsquo;s fun.
+I’m not going to try to convince you to use it, however, or even teach you how to use it.</description>
+    </item>
+    
+    <item>
+      <title>React Puzzle Game</title>
+      <link>https://berto.github.io/projects/react-puzzle-game/</link>
+      <pubDate>Tue, 02 Aug 2016 15:14:38 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/react-puzzle-game/</guid>
+      <description>Built with React/Redux. The point of the game is to leave your opponent with the last donut. Give it a shot!
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Web Development In Go: Beginners Step by Step Intro</title>
+      <link>https://berto.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</link>
+      <pubDate>Wed, 20 Jul 2016 14:01:29 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/web-development-in-go-beginners-step-by-step-intro/</guid>
+      <description>What to expect from this post Getting Started Hello Go Web Server Deployment Next Steps  WHAT TO EXPECT FROM THIS POST This is a beginner’s introduction to using Go for Web Development. By the end of this post, we will have built and deployed a simple web site.
+I’m striving for a low barrier to entry approach. This means minimizing the complexity by sparing some details and using libraries/frameworks that do most of the magic for us.</description>
+    </item>
+    
+    <item>
+      <title>AWS EC2 VPS Setup</title>
+      <link>https://berto.github.io/blog/aws-ec2-vps-setup/</link>
+      <pubDate>Sat, 18 Jun 2016 20:08:23 -0700</pubDate>
+      
+      <guid>https://berto.github.io/blog/aws-ec2-vps-setup/</guid>
+      <description>Set Up Server Buy Domain Power Up Ubuntu Server Next Steps  Part of being a developer is having your own virtual private server (VPS). Personally, I’m a big fan of Digital Ocean. Amazon however offers a year of free service, so to keep our beer budget intact, in this tutorial, I’ll walk you step by step on setting up an EC2 Instance on AWS.
+SET UP SERVER Create AWS Account Go into AWS and set up an account.</description>
+    </item>
+    
+    <item>
+      <title>Game Theory with Waffles</title>
+      <link>https://berto.github.io/projects/game-theory-with-waffles/</link>
+      <pubDate>Fri, 08 Apr 2016 15:21:27 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/game-theory-with-waffles/</guid>
+      <description>I find Game Theory fascinating. I also like waffles. I decided to create a web game to challenge two people into a zero-sum game situation.
+Built with websockets and Go.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Java Gradle Generator</title>
+      <link>https://berto.github.io/projects/java-gradle-generator/</link>
+      <pubDate>Sun, 21 Feb 2016 15:56:13 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/java-gradle-generator/</guid>
+      <description>Basic generator for a Gradle Java application using Yeoman.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Go Sudoku Solver</title>
+      <link>https://berto.github.io/projects/go-sudoku-solver/</link>
+      <pubDate>Sun, 22 Nov 2015 15:27:29 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/go-sudoku-solver/</guid>
+      <description>Sudoku web app: solves, generates, grades, and validates sudoku puzzles.
+Heroku Url. Takes a second.
+Code Source
+Back to Projects</description>
+    </item>
+    
+    <item>
+      <title>Previous Work</title>
+      <link>https://berto.github.io/projects/previous-work/</link>
+      <pubDate>Wed, 07 Oct 2015 16:00:11 -0700</pubDate>
+      
+      <guid>https://berto.github.io/projects/previous-work/</guid>
+      <description> War, the card game simulator Squirrel, a 2D JavaScript game (takes a second to load) Web terminal simulator Old personal site build with Angular And more&amp;hellip;  </description>
     </item>
     
   </channel>
