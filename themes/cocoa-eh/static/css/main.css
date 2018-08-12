@@ -109,23 +109,23 @@ html {
   }
 }
 
-@keyframes shake {
-  10%, 80% {
-    transform: rotate(5deg);
-  }
-  
-  20%, 80% {
-    transform: rotate(5deg);
-  }
-
-  30%, 50%, 70% {
-    transform: rotate(-10deg);
-  }
-
-  40%, 60% {
-    transform: rotate(5deg);
-  }
-}
+/* @keyframes shake { */
+/*   10%, 80% { */
+/*     transform: rotate(5deg); */
+/*   } */
+/*    */
+/*   20%, 80% { */
+/*     transform: rotate(5deg); */
+/*   } */
+/*  */
+/*   30%, 50%, 70% { */
+/*     transform: rotate(-10deg); */
+/*   } */
+/*  */
+/*   40%, 60% { */
+/*     transform: rotate(5deg); */
+/*   } */
+/* } */
 
 @font-face {
   font-family: 'Nexa Bold';
